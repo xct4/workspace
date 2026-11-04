@@ -1,0 +1,4331 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+<Meta name="ExplicitAutoJoints">true</Meta>
+<External>null</External>
+<External>nil</External>
+<Item class="Model" referent="RBX1">
+<Properties>
+<string name="Name">10</string>
+<Ref name="PrimaryPart">RBX2</Ref>
+</Properties>
+<Item class="Humanoid" referent="RBX3">
+<Properties>
+<string name="DisplayName">IllIIIIIIlIIIIlI</string>
+<float name="Health_XML">100.000000000000</float>
+<float name="HipHeight">1.141784191132</float>
+<token name="RigType">1</token>
+<Ref name="RootPart">RBX2</Ref>
+</Properties>
+<Item class="Animator" referent="RBX4">
+<Properties>
+</Properties>
+</Item>
+<Item class="NumberValue" referent="RBX5">
+<Properties>
+<string name="Name">BodyTypeScale</string>
+</Properties>
+</Item>
+<Item class="NumberValue" referent="RBX6">
+<Properties>
+<string name="Name">BodyProportionScale</string>
+</Properties>
+</Item>
+<Item class="NumberValue" referent="RBX7">
+<Properties>
+<string name="Name">BodyWidthScale</string>
+<double name="Value">1.000000000000</double>
+</Properties>
+</Item>
+<Item class="NumberValue" referent="RBX8">
+<Properties>
+<string name="Name">BodyHeightScale</string>
+<double name="Value">1.000000000000</double>
+</Properties>
+</Item>
+<Item class="NumberValue" referent="RBX9">
+<Properties>
+<string name="Name">BodyDepthScale</string>
+<double name="Value">1.000000000000</double>
+</Properties>
+</Item>
+<Item class="NumberValue" referent="RBX10">
+<Properties>
+<string name="Name">HeadScale</string>
+<double name="Value">1.000000000000</double>
+</Properties>
+</Item>
+<Item class="HumanoidDescription" referent="RBX11">
+<Properties>
+<float name="BodyTypeScale">0.000000000000</float>
+<int64 name="Head">110782481385880</int64>
+<Color3 name="HeadColor">
+<R>0.831372559071</R>
+<G>0.090196080506</G>
+<B>0.694117665291</B>
+</Color3>
+<int64 name="LeftArm">113135153833467</int64>
+<Color3 name="LeftArmColor">
+<R>0.831372559071</R>
+<G>0.090196080506</G>
+<B>0.694117665291</B>
+</Color3>
+<int64 name="LeftLeg">93667274706449</int64>
+<Color3 name="LeftLegColor">
+<R>0.831372559071</R>
+<G>0.090196080506</G>
+<B>0.694117665291</B>
+</Color3>
+<int64 name="MoodAnimation">14618207727</int64>
+<float name="ProportionScale">0.000000000000</float>
+<int64 name="RightArm">140549292324667</int64>
+<Color3 name="RightArmColor">
+<R>0.831372559071</R>
+<G>0.090196080506</G>
+<B>0.694117665291</B>
+</Color3>
+<int64 name="RightLeg">114378914856155</int64>
+<Color3 name="RightLegColor">
+<R>0.831372559071</R>
+<G>0.090196080506</G>
+<B>0.694117665291</B>
+</Color3>
+<int64 name="Torso">124734359190844</int64>
+<Color3 name="TorsoColor">
+<R>0.121568627656</R>
+<G>0.015686275437</G>
+<B>0.011764706112</B>
+</Color3>
+</Properties>
+<Item class="BodyPartDescription" referent="RBX12">
+<Properties>
+</Properties>
+</Item>
+<Item class="BodyPartDescription" referent="RBX13">
+<Properties>
+</Properties>
+</Item>
+<Item class="BodyPartDescription" referent="RBX14">
+<Properties>
+</Properties>
+</Item>
+<Item class="BodyPartDescription" referent="RBX15">
+<Properties>
+</Properties>
+</Item>
+<Item class="BodyPartDescription" referent="RBX16">
+<Properties>
+</Properties>
+</Item>
+<Item class="BodyPartDescription" referent="RBX17">
+<Properties>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX18">
+<Properties>
+<bool name="Anchored">true</bool>
+<CoordinateFrame name="CFrame">
+<X>124.495658874512</X>
+<Y>0.821838200092</Y>
+<Z>46.533351898193</Z>
+<R00>0.842128038406</R00>
+<R01>0.125821977854</R01>
+<R02>0.524394035339</R02>
+<R10>0.140380084515</R10>
+<R11>0.887730717659</R11>
+<R12>-0.438437551260</R12>
+<R20>-0.520685791969</R20>
+<R21>0.442835062742</R21>
+<R22>0.729920089245</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<string name="CollisionGroup">Players</string>
+<int name="CollisionGroupId">3</int>
+<Color3 name="Color">
+<R>0.831372559071</R>
+<G>0.090196080506</G>
+<B>0.694117665291</B>
+</Color3>
+<bool name="HasJointOffset">true</bool>
+<bool name="HasSkinnedMesh">true</bool>
+<Vector3 name="InitialSize">
+<X>0.621725976467</X>
+<Y>1.134100675583</Y>
+<Z>0.815990209579</Z>
+</Vector3>
+<Vector3 name="JointOffset">
+<X>-0.017095088959</X>
+<Y>0.315377265215</Y>
+<Z>0.026005573571</Z>
+</Vector3>
+<bool name="Locked">true</bool>
+<Content name="MeshId"><url>rbxassetid://76964360134628</url></Content>
+<string name="Name">RightUpperLeg</string>
+<SharedString name="PhysicalConfigData">QzNEN0VGMTgxMjU5MjIxOQ==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<CoordinateFrame name="PivotOffset">
+<X>-0.408861070871</X>
+<Y>-0.340532988310</Y>
+<Z>-0.025909319520</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>0.000000000000</R11>
+<R12>-1.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>1.000000000000</R21>
+<R22>0.000000000000</R22>
+</CoordinateFrame>
+<Vector3 name="RotVelocity">
+<X>0.000002139276</X>
+<Y>-0.000000000000</Y>
+<Z>-0.000001674160</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>0.621725976467</X>
+<Y>1.134100675583</Y>
+<Z>0.815990209579</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000002210132</X>
+<Y>0.000013179488</Y>
+<Z>-0.000002824152</Z>
+</Vector3>
+</Properties>
+<Item class="NoCollisionConstraint" referent="RBX19">
+<Properties>
+<string name="Name">RightFootNoCollision</string>
+<Ref name="Part0">RBX18</Ref>
+<Ref name="Part1">RBX20</Ref>
+</Properties>
+</Item>
+<Item class="SurfaceAppearance" referent="RBX21">
+<Properties>
+<Content name="ColorMap"><url>rbxassetid://87376569035525</url></Content>
+<Content name="NormalMap"><url>rbxassetid://74477601137121</url></Content>
+<Content name="RoughnessMap"><url>rbxassetid://134170373664456</url></Content>
+<Content name="TexturePack"><url>rbxassetid://70390173707661</url></Content>
+</Properties>
+</Item>
+<Item class="AnimationConstraint" referent="RBX22">
+<Properties>
+<Ref name="Attachment0">RBX23</Ref>
+<Ref name="Attachment1">RBX24</Ref>
+<bool name="IsKinematic">true</bool>
+<float name="MaxForce">0.000000000000</float>
+<float name="MaxTorque">3000.000000000000</float>
+<string name="Name">RightHip</string>
+<CoordinateFrame name="Transform">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.989688217640</R00>
+<R01>-0.138548016548</R01>
+<R02>0.036354646087</R02>
+<R10>0.140380144119</R10>
+<R11>0.887730717659</R11>
+<R12>-0.438437670469</R12>
+<R20>0.028471529484</R20>
+<R21>0.439020067453</R21>
+<R22>0.898026049137</R22>
+</CoordinateFrame>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX25">
+<Properties>
+<string name="Name">AvatarPartScaleType</string>
+<string name="Value">Classic</string>
+</Properties>
+</Item>
+<Item class="BallSocketConstraint" referent="RBX26">
+<Properties>
+<Ref name="Attachment0">RBX23</Ref>
+<Ref name="Attachment1">RBX24</Ref>
+<bool name="LimitsEnabled">true</bool>
+<string name="Name">RightHipBallSocket</string>
+<bool name="TwistLimitsEnabled">true</bool>
+<float name="TwistLowerAngle">-5.000000000000</float>
+<float name="TwistUpperAngle">80.000000000000</float>
+<float name="UpperAngle">40.000000000000</float>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX24">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.017095088959</X>
+<Y>0.315377265215</Y>
+<Z>0.026005573571</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">RightHipRigAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX27">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>-0.017095088959</X>
+<Y>0.315377265215</Y>
+<Z>0.026005573571</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX28">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.021951854229</X>
+<Y>-0.484945476055</Y>
+<Z>0.018356338143</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">RightKneeRigAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX29">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>-0.021951854229</X>
+<Y>-0.484945476055</Y>
+<Z>0.018356338143</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="WrapTarget" referent="RBX30">
+<Properties>
+<Content name="CageMeshId"><url>rbxassetid://136001668950029</url></Content>
+<CoordinateFrame name="CageOrigin">
+<X>-0.004362195730</X>
+<Y>-0.370832651854</Y>
+<Z>0.010606154799</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="ImportOrigin">
+<X>-0.404498875141</X>
+<Y>0.030299663544</Y>
+<Z>-0.036515474319</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">RightUpperLegWrapTarget</string>
+</Properties>
+</Item>
+<Item class="Vector3Value" referent="RBX31">
+<Properties>
+<string name="Name">OriginalSize</string>
+<Vector3 name="Value">
+<X>0.621725976467</X>
+<Y>1.134100675583</Y>
+<Z>0.815990209579</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="BodyColors" referent="RBX32">
+<Properties>
+<Color3 name="HeadColor3">
+<R>0.831372559071</R>
+<G>0.090196080506</G>
+<B>0.694117665291</B>
+</Color3>
+<Color3 name="LeftArmColor3">
+<R>0.831372559071</R>
+<G>0.090196080506</G>
+<B>0.694117665291</B>
+</Color3>
+<Color3 name="LeftLegColor3">
+<R>0.831372559071</R>
+<G>0.090196080506</G>
+<B>0.694117665291</B>
+</Color3>
+<Color3 name="RightArmColor3">
+<R>0.831372559071</R>
+<G>0.090196080506</G>
+<B>0.694117665291</B>
+</Color3>
+<Color3 name="RightLegColor3">
+<R>0.831372559071</R>
+<G>0.090196080506</G>
+<B>0.694117665291</B>
+</Color3>
+<Color3 name="TorsoColor3">
+<R>0.121568627656</R>
+<G>0.015686275437</G>
+<B>0.011764706112</B>
+</Color3>
+</Properties>
+</Item>
+<Item class="Part" referent="RBX2">
+<Properties>
+<bool name="Anchored">true</bool>
+<CoordinateFrame name="CFrame">
+<X>124.178863525391</X>
+<Y>2.141783714294</Y>
+<Z>46.873065948486</Z>
+<R00>0.835076034069</R00>
+<R01>0.000000049170</R01>
+<R02>0.550134539604</R02>
+<R10>-0.000000006496</R10>
+<R11>1.000000000000</R11>
+<R12>-0.000000079517</R12>
+<R20>-0.550134539604</R20>
+<R21>0.000000062829</R21>
+<R22>0.835076034069</R22>
+</CoordinateFrame>
+<string name="CollisionGroup">Players</string>
+<int name="CollisionGroupId">3</int>
+<string name="Name">HumanoidRootPart</string>
+<Vector3 name="RotVelocity">
+<X>0.000002139276</X>
+<Y>-0.000000000000</Y>
+<Z>-0.000001674160</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>2.000000000000</X>
+<Y>2.000000000000</Y>
+<Z>1.000000000000</Z>
+</Vector3>
+<float name="Transparency">1.000000000000</float>
+<Vector3 name="Velocity">
+<X>-0.000000000332</X>
+<Y>0.000012983111</Y>
+<Z>-0.000000000424</Z>
+</Vector3>
+</Properties>
+<Item class="Attachment" referent="RBX33">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.000000000000</X>
+<Y>-1.655910253525</Y>
+<Z>0.000000000000</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">RootRigAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX34">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>0.000000000000</X>
+<Y>-0.349999994040</Y>
+<Z>0.000000000000</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="Vector3Value" referent="RBX35">
+<Properties>
+<string name="Name">OriginalSize</string>
+<Vector3 name="Value">
+<X>2.000000000000</X>
+<Y>2.000000000000</Y>
+<Z>1.000000000000</Z>
+</Vector3>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX36">
+<Properties>
+<string name="Name">RootAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX37">
+<Properties>
+<string name="Name">OriginalPosition</string>
+</Properties>
+</Item>
+</Item>
+<Item class="PointLight" referent="RBX38">
+<Properties>
+</Properties>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX39">
+<Properties>
+<bool name="Anchored">true</bool>
+<CoordinateFrame name="CFrame">
+<X>123.554847717285</X>
+<Y>1.593628764153</Y>
+<Z>47.403308868408</Z>
+<R00>0.805619835854</R00>
+<R01>-0.132310241461</R01>
+<R02>0.577469229698</R02>
+<R10>0.111971922219</R10>
+<R11>0.991179525852</R11>
+<R12>0.070889309049</R12>
+<R20>-0.581755101681</R20>
+<R21>0.007550511509</R21>
+<R22>0.813328921795</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<string name="CollisionGroup">Players</string>
+<int name="CollisionGroupId">3</int>
+<Color3 name="Color">
+<R>0.831372559071</R>
+<G>0.090196080506</G>
+<B>0.694117665291</B>
+</Color3>
+<bool name="HasJointOffset">true</bool>
+<bool name="HasSkinnedMesh">true</bool>
+<Vector3 name="InitialSize">
+<X>0.538671433926</X>
+<Y>0.521045565605</Y>
+<Z>0.563000321388</Z>
+</Vector3>
+<Vector3 name="JointOffset">
+<X>0.235187232494</X>
+<Y>0.259472846985</Y>
+<Z>0.015657223761</Z>
+</Vector3>
+<bool name="Locked">true</bool>
+<Content name="MeshId"><url>rbxassetid://130636578732981</url></Content>
+<string name="Name">LeftUpperArm</string>
+<SharedString name="PhysicalConfigData">ODA1REIxQjFBMTg0NUJDMw==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<CoordinateFrame name="PivotOffset">
+<X>0.859898805618</X>
+<Y>-1.176197052002</Y>
+<Z>-0.038120791316</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>0.000000000000</R11>
+<R12>-1.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>1.000000000000</R21>
+<R22>0.000000000000</R22>
+</CoordinateFrame>
+<Vector3 name="RotVelocity">
+<X>0.000002139276</X>
+<Y>-0.000000000000</Y>
+<Z>-0.000001674160</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>0.538671433926</X>
+<Y>0.521045565605</Y>
+<Z>0.563000321388</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000000918031</X>
+<Y>0.000012893478</Y>
+<Z>-0.000001173079</Z>
+</Vector3>
+</Properties>
+<Item class="AnimationConstraint" referent="RBX40">
+<Properties>
+<Ref name="Attachment0">RBX41</Ref>
+<Ref name="Attachment1">RBX42</Ref>
+<bool name="IsKinematic">true</bool>
+<float name="MaxForce">0.000000000000</float>
+<float name="MaxTorque">3000.000000000000</float>
+<string name="Name">LeftShoulder</string>
+<CoordinateFrame name="Transform">
+<X>-0.000108080676</X>
+<Y>0.000011416674</Y>
+<Z>-0.000000464513</Z>
+<R00>0.991470158100</R00>
+<R01>-0.126610681415</R01>
+<R02>-0.030930195004</R02>
+<R10>0.128368303180</R10>
+<R11>0.989680886269</R11>
+<R12>0.063665293157</R12>
+<R20>0.022550318390</R20>
+<R21>-0.067092694342</R21>
+<R22>0.997491896152</R22>
+</CoordinateFrame>
+</Properties>
+</Item>
+<Item class="BallSocketConstraint" referent="RBX43">
+<Properties>
+<Ref name="Attachment0">RBX44</Ref>
+<Ref name="Attachment1">RBX45</Ref>
+<bool name="LimitsEnabled">true</bool>
+<string name="Name">LeftShoulderBallSocket</string>
+<bool name="TwistLimitsEnabled">true</bool>
+<float name="TwistLowerAngle">-85.000000000000</float>
+<float name="TwistUpperAngle">85.000000000000</float>
+<float name="UpperAngle">110.000000000000</float>
+</Properties>
+</Item>
+<Item class="WrapTarget" referent="RBX46">
+<Properties>
+<Content name="CageMeshId"><url>rbxassetid://80724386357368</url></Content>
+<CoordinateFrame name="CageOrigin">
+<X>-0.057440638542</X>
+<Y>-0.035859107971</Y>
+<Z>-0.011879220605</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="ImportOrigin">
+<X>0.917339444160</X>
+<Y>-1.140337944031</Y>
+<Z>-0.026241570711</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">LeftUpperArmWrapTarget</string>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX42">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.235187232494</X>
+<Y>0.259472846985</Y>
+<Z>0.015657223761</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">LeftShoulderRigAttachment</string>
+</Properties>
+<Item class="Attachment" referent="RBX45">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.000000000000</R00>
+<R01>-1.000000000000</R01>
+<R02>-0.000000000000</R02>
+<R10>-1.000000000000</R10>
+<R11>0.000000000000</R11>
+<R12>-0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>-1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">JointRotation</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX47">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>0.235187232494</X>
+<Y>0.259472846985</Y>
+<Z>0.015657223761</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="Vector3Value" referent="RBX48">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>0.235187232494</X>
+<Y>0.259472846985</Y>
+<Z>0.015657223761</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="NoCollisionConstraint" referent="RBX49">
+<Properties>
+<string name="Name">LeftHandNoCollision</string>
+<Ref name="Part0">RBX39</Ref>
+<Ref name="Part1">RBX50</Ref>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX51">
+<Properties>
+<string name="Name">AvatarPartScaleType</string>
+<string name="Value">Classic</string>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX52">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.009294688702</X>
+<Y>0.293868660927</Y>
+<Z>0.049631051719</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">LeftShoulderAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX53">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>0.009294688702</X>
+<Y>0.293868660927</Y>
+<Z>0.049631051719</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="Vector3Value" referent="RBX54">
+<Properties>
+<string name="Name">OriginalSize</string>
+<Vector3 name="Value">
+<X>0.538671433926</X>
+<Y>0.521045565605</Y>
+<Z>0.563000321388</Z>
+</Vector3>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX55">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.063566207886</X>
+<Y>-0.191752731800</Y>
+<Z>-0.007761465386</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">LeftElbowRigAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX56">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>-0.063566207886</X>
+<Y>-0.191752731800</Y>
+<Z>-0.007761465386</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="SurfaceAppearance" referent="RBX57">
+<Properties>
+<Content name="ColorMap"><url>rbxassetid://87376569035525</url></Content>
+<Content name="NormalMap"><url>rbxassetid://74477601137121</url></Content>
+<Content name="RoughnessMap"><url>rbxassetid://134170373664456</url></Content>
+<Content name="TexturePack"><url>rbxassetid://70390173707661</url></Content>
+</Properties>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX58">
+<Properties>
+<bool name="Anchored">true</bool>
+<CoordinateFrame name="CFrame">
+<X>123.752746582031</X>
+<Y>0.805990219116</Y>
+<Z>47.063514709473</Z>
+<R00>0.812594234943</R00>
+<R01>0.310903519392</R01>
+<R02>0.492980360985</R02>
+<R10>-0.158529609442</R10>
+<R11>0.931852221489</R11>
+<R12>-0.326373785734</R12>
+<R20>-0.560855567455</R20>
+<R21>0.187057465315</R21>
+<R22>0.806505084038</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<string name="CollisionGroup">Players</string>
+<int name="CollisionGroupId">3</int>
+<Color3 name="Color">
+<R>0.831372559071</R>
+<G>0.090196080506</G>
+<B>0.694117665291</B>
+</Color3>
+<bool name="HasJointOffset">true</bool>
+<bool name="HasSkinnedMesh">true</bool>
+<Vector3 name="InitialSize">
+<X>0.628609895706</X>
+<Y>1.134365081787</Y>
+<Z>0.816002488136</Z>
+</Vector3>
+<Vector3 name="JointOffset">
+<X>0.020537048578</X>
+<Y>0.315244972706</Y>
+<Z>0.026011683047</Z>
+</Vector3>
+<bool name="Locked">true</bool>
+<Content name="MeshId"><url>rbxassetid://125264761006475</url></Content>
+<string name="Name">LeftUpperLeg</string>
+<SharedString name="PhysicalConfigData">QjI5NThCMUM2QzUxNzhFQQ==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<CoordinateFrame name="PivotOffset">
+<X>0.412303030491</X>
+<Y>-0.340665280819</Y>
+<Z>-0.025903210044</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>0.000000000000</R11>
+<R12>-1.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>1.000000000000</R21>
+<R22>0.000000000000</R22>
+</CoordinateFrame>
+<Vector3 name="RotVelocity">
+<X>0.000002139276</X>
+<Y>-0.000000000000</Y>
+<Z>-0.000001674160</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>0.628609895706</X>
+<Y>1.134365081787</Y>
+<Z>0.816002488136</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000002236664</X>
+<Y>0.000013289077</Y>
+<Z>-0.000002858055</Z>
+</Vector3>
+</Properties>
+<Item class="Attachment" referent="RBX59">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.020537048578</X>
+<Y>0.315244972706</Y>
+<Z>0.026011683047</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">LeftHipRigAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX60">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>0.020537048578</X>
+<Y>0.315244972706</Y>
+<Z>0.026011683047</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="StringValue" referent="RBX61">
+<Properties>
+<string name="Name">AvatarPartScaleType</string>
+<string name="Value">Classic</string>
+</Properties>
+</Item>
+<Item class="NoCollisionConstraint" referent="RBX62">
+<Properties>
+<string name="Name">RightUpperLegNoCollision</string>
+<Ref name="Part0">RBX58</Ref>
+<Ref name="Part1">RBX18</Ref>
+</Properties>
+</Item>
+<Item class="BallSocketConstraint" referent="RBX63">
+<Properties>
+<Ref name="Attachment0">RBX64</Ref>
+<Ref name="Attachment1">RBX59</Ref>
+<bool name="LimitsEnabled">true</bool>
+<string name="Name">LeftHipBallSocket</string>
+<bool name="TwistLimitsEnabled">true</bool>
+<float name="TwistLowerAngle">-5.000000000000</float>
+<float name="TwistUpperAngle">80.000000000000</float>
+<float name="UpperAngle">40.000000000000</float>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX65">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.032773673534</X>
+<Y>-0.508693039417</Y>
+<Z>0.018362402916</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">LeftKneeRigAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX66">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>0.032773673534</X>
+<Y>-0.508693039417</Y>
+<Z>0.018362402916</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="NoCollisionConstraint" referent="RBX67">
+<Properties>
+<string name="Name">LeftFootNoCollision</string>
+<Ref name="Part0">RBX58</Ref>
+<Ref name="Part1">RBX68</Ref>
+</Properties>
+</Item>
+<Item class="AnimationConstraint" referent="RBX69">
+<Properties>
+<Ref name="Attachment0">RBX64</Ref>
+<Ref name="Attachment1">RBX59</Ref>
+<bool name="IsKinematic">true</bool>
+<float name="MaxForce">0.000000000000</float>
+<float name="MaxTorque">3000.000000000000</float>
+<string name="Name">LeftHip</string>
+<CoordinateFrame name="Transform">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.987124025822</R00>
+<R01>0.156721293926</R01>
+<R02>-0.032010242343</R02>
+<R10>-0.158529609442</R10>
+<R11>0.931852221489</R11>
+<R12>-0.326373696327</R12>
+<R20>-0.021320894361</R20>
+<R21>0.327245891094</R21>
+<R22>0.944698631763</R22>
+</CoordinateFrame>
+</Properties>
+</Item>
+<Item class="SurfaceAppearance" referent="RBX70">
+<Properties>
+<Content name="ColorMap"><url>rbxassetid://87376569035525</url></Content>
+<Content name="NormalMap"><url>rbxassetid://74477601137121</url></Content>
+<Content name="RoughnessMap"><url>rbxassetid://134170373664456</url></Content>
+<Content name="TexturePack"><url>rbxassetid://70390173707661</url></Content>
+</Properties>
+</Item>
+<Item class="Vector3Value" referent="RBX71">
+<Properties>
+<string name="Name">OriginalSize</string>
+<Vector3 name="Value">
+<X>0.628609895706</X>
+<Y>1.134365081787</Y>
+<Z>0.816002488136</Z>
+</Vector3>
+</Properties>
+</Item>
+<Item class="WrapTarget" referent="RBX72">
+<Properties>
+<Content name="CageMeshId"><url>rbxassetid://135348872631953</url></Content>
+<CoordinateFrame name="CageOrigin">
+<X>0.017134994268</X>
+<Y>-0.399197578430</Y>
+<Z>0.000178828835</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="ImportOrigin">
+<X>0.395168036222</X>
+<Y>0.058532297611</Y>
+<Z>-0.026082038879</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">LeftUpperLegWrapTarget</string>
+</Properties>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX73">
+<Properties>
+<bool name="Anchored">true</bool>
+<CoordinateFrame name="CFrame">
+<X>124.544654846191</X>
+<Y>0.580434083939</Y>
+<Z>46.516716003418</Z>
+<R00>0.796522378922</R00>
+<R01>0.265751034021</R01>
+<R02>0.543073296547</R02>
+<R10>-0.153211355209</R10>
+<R11>0.957622766495</R11>
+<R12>-0.243895217776</R12>
+<R20>-0.584874868393</R20>
+<R21>0.111062951386</R21>
+<R22>0.803483963013</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<string name="CollisionGroup">Players</string>
+<int name="CollisionGroupId">3</int>
+<Color3 name="Color">
+<R>0.831372559071</R>
+<G>0.090196080506</G>
+<B>0.694117665291</B>
+</Color3>
+<bool name="HasJointOffset">true</bool>
+<bool name="HasSkinnedMesh">true</bool>
+<Vector3 name="InitialSize">
+<X>1.123228430748</X>
+<Y>1.211698412895</Y>
+<Z>0.653495788574</Z>
+</Vector3>
+<Vector3 name="JointOffset">
+<X>0.402363479137</X>
+<Y>0.525480091572</Y>
+<Z>0.135646700859</Z>
+</Vector3>
+<bool name="Locked">true</bool>
+<Content name="MeshId"><url>rbxassetid://127306275273212</url></Content>
+<string name="Name">RightHand</string>
+<SharedString name="PhysicalConfigData">QTUxRjZEODU4QTQxOUU3Qg==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<CoordinateFrame name="PivotOffset">
+<X>-0.728888213634</X>
+<Y>-0.130753263831</Y>
+<Z>-0.144886106253</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>0.000000000000</R11>
+<R12>-1.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>1.000000000000</R21>
+<R22>0.000000000000</R22>
+</CoordinateFrame>
+<Vector3 name="RotVelocity">
+<X>0.000002139276</X>
+<Y>-0.000000000000</Y>
+<Z>-0.000001674160</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.123228430748</X>
+<Y>1.211698412895</Y>
+<Z>0.653495788574</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000002614281</X>
+<Y>0.000013133050</Y>
+<Z>-0.000003340582</Z>
+</Vector3>
+</Properties>
+<Item class="Vector3Value" referent="RBX74">
+<Properties>
+<string name="Name">OriginalSize</string>
+<Vector3 name="Value">
+<X>1.123228430748</X>
+<Y>1.211698412895</Y>
+<Z>0.653495788574</Z>
+</Vector3>
+</Properties>
+</Item>
+<Item class="BallSocketConstraint" referent="RBX75">
+<Properties>
+<Ref name="Attachment0">RBX76</Ref>
+<Ref name="Attachment1">RBX77</Ref>
+<bool name="LimitsEnabled">true</bool>
+<string name="Name">RightWristBallSocket</string>
+<bool name="TwistLimitsEnabled">true</bool>
+<float name="TwistLowerAngle">-10.000000000000</float>
+<float name="TwistUpperAngle">10.000000000000</float>
+<float name="UpperAngle">30.000000000000</float>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX78">
+<Properties>
+<string name="Name">AvatarPartScaleType</string>
+<string name="Value">Classic</string>
+</Properties>
+</Item>
+<Item class="SurfaceAppearance" referent="RBX79">
+<Properties>
+<Content name="ColorMap"><url>rbxassetid://87376569035525</url></Content>
+<Content name="NormalMap"><url>rbxassetid://74477601137121</url></Content>
+<Content name="RoughnessMap"><url>rbxassetid://134170373664456</url></Content>
+<Content name="TexturePack"><url>rbxassetid://70390173707661</url></Content>
+</Properties>
+</Item>
+<Item class="WrapTarget" referent="RBX80">
+<Properties>
+<Content name="CageMeshId"><url>rbxassetid://83743103431563</url></Content>
+<CoordinateFrame name="CageOrigin">
+<X>0.401767194271</X>
+<Y>0.457553267479</Y>
+<Z>0.129936665297</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="ImportOrigin">
+<X>-1.130655407906</X>
+<Y>-0.588306546211</Y>
+<Z>-0.274822771549</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">RightHandWrapTarget</string>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX77">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.402363479137</X>
+<Y>0.525480091572</Y>
+<Z>0.135646700859</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">RightWristRigAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX81">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>0.402363479137</X>
+<Y>0.525480091572</Y>
+<Z>0.135646700859</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX82">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.423191964626</X>
+<Y>0.452720761299</Y>
+<Z>0.130555003881</Z>
+<R00>0.920516788960</R00>
+<R01>0.000003801950</R01>
+<R02>-0.390703052282</R02>
+<R10>0.390703052282</R10>
+<R11>-0.000018721268</R11>
+<R12>0.920516788960</R12>
+<R20>-0.000003814697</R20>
+<R21>-1.000000000000</R21>
+<R22>-0.000018718676</R22>
+</CoordinateFrame>
+<string name="Name">RightGripAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX83">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>0.423191964626</X>
+<Y>0.452720761299</Y>
+<Z>0.130555003881</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="AnimationConstraint" referent="RBX84">
+<Properties>
+<Ref name="Attachment0">RBX76</Ref>
+<Ref name="Attachment1">RBX77</Ref>
+<bool name="IsKinematic">true</bool>
+<float name="MaxForce">0.000000000000</float>
+<float name="MaxTorque">3000.000000000000</float>
+<string name="Name">RightWrist</string>
+</Properties>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX85">
+<Properties>
+<bool name="Anchored">true</bool>
+<CoordinateFrame name="CFrame">
+<X>125.034286499023</X>
+<Y>1.197867870331</Y>
+<Z>46.498973846436</Z>
+<R00>0.796524524689</R00>
+<R01>0.265744626522</R01>
+<R02>0.543073236942</R02>
+<R10>-0.153205007315</R10>
+<R11>0.957624256611</R11>
+<R12>-0.243893384933</R12>
+<R20>-0.584873497486</R20>
+<R21>0.111065492034</R21>
+<R22>0.803484559059</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<string name="CollisionGroup">Players</string>
+<int name="CollisionGroupId">3</int>
+<Color3 name="Color">
+<R>0.831372559071</R>
+<G>0.090196080506</G>
+<B>0.694117665291</B>
+</Color3>
+<bool name="HasJointOffset">true</bool>
+<bool name="HasSkinnedMesh">true</bool>
+<Vector3 name="InitialSize">
+<X>0.486021995544</X>
+<Y>0.516616821289</Y>
+<Z>0.517303586006</Z>
+</Vector3>
+<Vector3 name="JointOffset">
+<X>-0.099603831768</X>
+<Y>0.116004526615</Y>
+<Z>-0.004922986031</Z>
+</Vector3>
+<bool name="Locked">true</bool>
+<Content name="MeshId"><url>rbxassetid://117957760470900</url></Content>
+<string name="Name">RightLowerArm</string>
+<SharedString name="PhysicalConfigData">MDgxQzgzOUQ2QzlGRTFCNg==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<CoordinateFrame name="PivotOffset">
+<X>-1.034672260284</X>
+<Y>-0.850172042847</Y>
+<Z>-0.245946362615</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>0.000000000000</R11>
+<R12>-1.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>1.000000000000</R21>
+<R22>0.000000000000</R22>
+</CoordinateFrame>
+<Vector3 name="RotVelocity">
+<X>0.000002139276</X>
+<Y>-0.000000000000</Y>
+<Z>-0.000001674160</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>0.486021995544</X>
+<Y>0.516616821289</Y>
+<Z>0.517303586006</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000001580598</X>
+<Y>0.000012351284</Y>
+<Z>-0.000002019721</Z>
+</Vector3>
+</Properties>
+<Item class="StringValue" referent="RBX86">
+<Properties>
+<string name="Name">AvatarPartScaleType</string>
+<string name="Value">Classic</string>
+</Properties>
+</Item>
+<Item class="Vector3Value" referent="RBX87">
+<Properties>
+<string name="Name">OriginalSize</string>
+<Vector3 name="Value">
+<X>0.486021995544</X>
+<Y>0.516616821289</Y>
+<Z>0.517303586006</Z>
+</Vector3>
+</Properties>
+</Item>
+<Item class="WrapTarget" referent="RBX88">
+<Properties>
+<Content name="CageMeshId"><url>rbxassetid://95131650282893</url></Content>
+<CoordinateFrame name="CageOrigin">
+<X>0.018923878670</X>
+<Y>-0.001351237297</Y>
+<Z>0.011150464416</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="ImportOrigin">
+<X>-1.053596138954</X>
+<Y>-0.848820805550</Y>
+<Z>-0.257096827030</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">RightLowerArmWrapTarget</string>
+</Properties>
+</Item>
+<Item class="AnimationConstraint" referent="RBX89">
+<Properties>
+<Ref name="Attachment0">RBX90</Ref>
+<Ref name="Attachment1">RBX91</Ref>
+<bool name="IsKinematic">true</bool>
+<float name="MaxForce">0.000000000000</float>
+<float name="MaxTorque">3000.000000000000</float>
+<string name="Name">RightElbow</string>
+<CoordinateFrame name="Transform">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.994200825691</R00>
+<R01>-0.102358907461</R01>
+<R02>0.032975610346</R02>
+<R10>0.107328698039</R10>
+<R11>0.963640451431</R11>
+<R12>-0.244699105620</R12>
+<R20>-0.006729491055</R20>
+<R21>0.246819272637</R21>
+<R22>0.969038128853</R22>
+</CoordinateFrame>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX91">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.099603831768</X>
+<Y>0.116004526615</Y>
+<Z>-0.004922986031</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">RightElbowRigAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX92">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>-0.099603831768</X>
+<Y>0.116004526615</Y>
+<Z>-0.004922986031</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="SurfaceAppearance" referent="RBX93">
+<Properties>
+<Content name="ColorMap"><url>rbxassetid://87376569035525</url></Content>
+<Content name="NormalMap"><url>rbxassetid://74477601137121</url></Content>
+<Content name="RoughnessMap"><url>rbxassetid://134170373664456</url></Content>
+<Content name="TexturePack"><url>rbxassetid://70390173707661</url></Content>
+</Properties>
+</Item>
+<Item class="BallSocketConstraint" referent="RBX94">
+<Properties>
+<Ref name="Attachment0">RBX90</Ref>
+<Ref name="Attachment1">RBX91</Ref>
+<bool name="LimitsEnabled">true</bool>
+<string name="Name">RightElbowBallSocket</string>
+<bool name="TwistLimitsEnabled">true</bool>
+<float name="TwistLowerAngle">5.000000000000</float>
+<float name="TwistUpperAngle">120.000000000000</float>
+<float name="UpperAngle">20.000000000000</float>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX76">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.096579432487</X>
+<Y>-0.193938672543</Y>
+<Z>0.034586444497</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">RightWristRigAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX95">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>0.096579432487</X>
+<Y>-0.193938672543</Y>
+<Z>0.034586444497</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX96">
+<Properties>
+<bool name="Anchored">true</bool>
+<CoordinateFrame name="CFrame">
+<X>124.174186706543</X>
+<Y>1.753303050995</Y>
+<Z>46.864501953125</Z>
+<R00>0.797638714314</R00>
+<R01>0.009235718288</R01>
+<R02>0.603064835072</R02>
+<R10>-0.016669556499</R10>
+<R11>0.999838352203</R11>
+<R12>0.006735686213</R12>
+<R20>-0.602905213833</R20>
+<R21>-0.015425472520</R21>
+<R22>0.797663688660</R22>
+</CoordinateFrame>
+<string name="CollisionGroup">Players</string>
+<int name="CollisionGroupId">3</int>
+<Color3 name="Color">
+<R>0.121568627656</R>
+<G>0.015686275437</G>
+<B>0.011764706112</B>
+</Color3>
+<bool name="HasJointOffset">true</bool>
+<bool name="HasSkinnedMesh">true</bool>
+<Vector3 name="InitialSize">
+<X>1.707480907440</X>
+<Y>1.930009365082</Y>
+<Z>1.643483400345</Z>
+</Vector3>
+<Vector3 name="JointOffset">
+<X>0.008470982313</X>
+<Y>-0.690947294235</Y>
+<Z>0.029905011877</Z>
+</Vector3>
+<bool name="Locked">true</bool>
+<Content name="MeshId"><url>rbxassetid://114778381627150</url></Content>
+<string name="Name">UpperTorso</string>
+<SharedString name="PhysicalConfigData">NUI4NzIxRjRBRUYwNTY4Rg==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<CoordinateFrame name="PivotOffset">
+<X>0.008470982313</X>
+<Y>-1.321378469467</Y>
+<Z>0.004946291447</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>0.000000000000</R11>
+<R12>-1.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>1.000000000000</R21>
+<R22>0.000000000000</R22>
+</CoordinateFrame>
+<Vector3 name="RotVelocity">
+<X>0.000002139276</X>
+<Y>-0.000000000000</Y>
+<Z>-0.000001674160</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.707480907440</X>
+<Y>1.930009365082</Y>
+<Z>1.643483400345</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000000650711</X>
+<Y>0.000013009262</Y>
+<Z>-0.000000831492</Z>
+</Vector3>
+</Properties>
+<Item class="NoCollisionConstraint" referent="RBX97">
+<Properties>
+<string name="Name">RightUpperLegNoCollision</string>
+<Ref name="Part0">RBX96</Ref>
+<Ref name="Part1">RBX18</Ref>
+</Properties>
+</Item>
+<Item class="NoCollisionConstraint" referent="RBX98">
+<Properties>
+<string name="Name">RightLowerArmNoCollision</string>
+<Ref name="Part0">RBX96</Ref>
+<Ref name="Part1">RBX85</Ref>
+</Properties>
+</Item>
+<Item class="SurfaceAppearance" referent="RBX99">
+<Properties>
+<Content name="ColorMap"><url>rbxassetid://87376569035525</url></Content>
+<Content name="NormalMap"><url>rbxassetid://74477601137121</url></Content>
+<Content name="RoughnessMap"><url>rbxassetid://134170373664456</url></Content>
+<Content name="TexturePack"><url>rbxassetid://70390173707661</url></Content>
+</Properties>
+</Item>
+<Item class="NoCollisionConstraint" referent="RBX100">
+<Properties>
+<string name="Name">LeftUpperLegNoCollision</string>
+<Ref name="Part0">RBX96</Ref>
+<Ref name="Part1">RBX58</Ref>
+</Properties>
+</Item>
+<Item class="WrapTarget" referent="RBX101">
+<Properties>
+<Content name="CageMeshId"><url>rbxassetid://101892536340536</url></Content>
+<CoordinateFrame name="CageOrigin">
+<X>-0.008044302464</X>
+<Y>-0.274361968040</Y>
+<Z>0.018026828766</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="ImportOrigin">
+<X>0.016515284777</X>
+<Y>-1.047016501427</Y>
+<Z>-0.013080537319</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">UpperTorsoWrapTarget</string>
+</Properties>
+</Item>
+<Item class="NoCollisionConstraint" referent="RBX102">
+<Properties>
+<string name="Name">LeftLowerLegNoCollision</string>
+<Ref name="Part0">RBX96</Ref>
+<Ref name="Part1">RBX103</Ref>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX104">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.644431114197</X>
+<Y>0.060860753059</Y>
+<Z>0.169779986143</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">RightShoulderRigAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX105">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>0.644431114197</X>
+<Y>0.060860753059</Y>
+<Z>0.169779986143</Z>
+</Vector3>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX106">
+<Properties>
+<string name="Name">JointRotation</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX107">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>0.644431114197</X>
+<Y>0.060860753059</Y>
+<Z>0.169779986143</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX108">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.008470982313</X>
+<Y>-0.690947294235</Y>
+<Z>0.029905011877</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">WaistRigAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX109">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>0.008470982313</X>
+<Y>-0.690947294235</Y>
+<Z>0.029905011877</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="Vector3Value" referent="RBX110">
+<Properties>
+<string name="Name">OriginalSize</string>
+<Vector3 name="Value">
+<X>1.707480907440</X>
+<Y>1.930009365082</Y>
+<Z>1.643483400345</Z>
+</Vector3>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX111">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.685952425003</X>
+<Y>0.190304040909</Y>
+<Z>0.037991106510</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">RightCollarAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX112">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>0.685952425003</X>
+<Y>0.190304040909</Y>
+<Z>0.037991106510</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="StringValue" referent="RBX113">
+<Properties>
+<string name="Name">AvatarPartScaleType</string>
+<string name="Value">Classic</string>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX41">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.616240620613</X>
+<Y>0.114291429520</Y>
+<Z>0.058724306524</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">LeftShoulderRigAttachment</string>
+</Properties>
+<Item class="Attachment" referent="RBX44">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>-1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">JointRotation</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX114">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>-0.616240620613</X>
+<Y>0.114291429520</Y>
+<Z>0.058724306524</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="Vector3Value" referent="RBX115">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>-0.616240620613</X>
+<Y>0.114291429520</Y>
+<Z>0.058724306524</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="NoCollisionConstraint" referent="RBX116">
+<Properties>
+<string name="Name">RightLowerLegNoCollision</string>
+<Ref name="Part0">RBX96</Ref>
+<Ref name="Part1">RBX117</Ref>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX118">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.658788979053</X>
+<Y>0.181942462921</Y>
+<Z>0.038526654243</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">LeftCollarAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX119">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>-0.658788979053</X>
+<Y>0.181942462921</Y>
+<Z>0.038526654243</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="AnimationConstraint" referent="RBX120">
+<Properties>
+<Ref name="Attachment0">RBX121</Ref>
+<Ref name="Attachment1">RBX108</Ref>
+<bool name="IsKinematic">true</bool>
+<float name="MaxForce">0.000000000000</float>
+<float name="MaxTorque">3000.000000000000</float>
+<string name="Name">Waist</string>
+<CoordinateFrame name="Transform">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.997767925262</R00>
+<R01>0.016198646277</R01>
+<R02>0.064782820642</R02>
+<R10>-0.016669597477</R10>
+<R11>0.999838352203</R11>
+<R12>0.006735784467</R12>
+<R20>-0.064663238823</R20>
+<R21>-0.007800653111</R21>
+<R22>0.997876644135</R22>
+</CoordinateFrame>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX122">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.008258640766</X>
+<Y>0.310046911240</Y>
+<Z>-0.438752949238</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">NeckAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX123">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>0.008258640766</X>
+<Y>0.310046911240</Y>
+<Z>-0.438752949238</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX124">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.009753458202</X>
+<Y>0.144193410873</Y>
+<Z>0.013626812026</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">NeckRigAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX125">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>0.009753458202</X>
+<Y>0.144193410873</Y>
+<Z>0.013626812026</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX126">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.008175909519</X>
+<Y>-0.028366804123</Y>
+<Z>0.585617780685</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">BodyBackAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX127">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>0.008175909519</X>
+<Y>-0.028366804123</Y>
+<Z>0.585617780685</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="NoCollisionConstraint" referent="RBX128">
+<Properties>
+<string name="Name">HumanoidRootPartNoCollision</string>
+<Ref name="Part0">RBX96</Ref>
+<Ref name="Part1">RBX2</Ref>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX129">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.007930696011</X>
+<Y>-0.261658191681</Y>
+<Z>-0.677858591080</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">BodyFrontAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX130">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>0.007930696011</X>
+<Y>-0.261658191681</Y>
+<Z>-0.677858591080</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="NoCollisionConstraint" referent="RBX131">
+<Properties>
+<string name="Name">LeftLowerArmNoCollision</string>
+<Ref name="Part0">RBX96</Ref>
+<Ref name="Part1">RBX132</Ref>
+</Properties>
+</Item>
+<Item class="BallSocketConstraint" referent="RBX133">
+<Properties>
+<Ref name="Attachment0">RBX121</Ref>
+<Ref name="Attachment1">RBX108</Ref>
+<bool name="LimitsEnabled">true</bool>
+<string name="Name">WaistBallSocket</string>
+<bool name="TwistLimitsEnabled">true</bool>
+<float name="TwistLowerAngle">-40.000000000000</float>
+<float name="TwistUpperAngle">20.000000000000</float>
+<float name="UpperAngle">20.000000000000</float>
+</Properties>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX132">
+<Properties>
+<bool name="Anchored">true</bool>
+<CoordinateFrame name="CFrame">
+<X>123.409873962402</X>
+<Y>1.268796443939</Y>
+<Z>47.466045379639</Z>
+<R00>0.836035847664</R00>
+<R01>-0.020972348750</R01>
+<R02>0.548273801804</R02>
+<R10>0.092917673290</R10>
+<R11>0.990247607231</R11>
+<R12>-0.103807076812</R12>
+<R20>-0.540749788284</R20>
+<R21>0.137730762362</R21>
+<R22>0.829831242561</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<string name="CollisionGroup">Players</string>
+<int name="CollisionGroupId">3</int>
+<Color3 name="Color">
+<R>0.831372559071</R>
+<G>0.090196080506</G>
+<B>0.694117665291</B>
+</Color3>
+<bool name="HasJointOffset">true</bool>
+<bool name="HasSkinnedMesh">true</bool>
+<Vector3 name="InitialSize">
+<X>0.497517108917</X>
+<Y>0.507515251637</Y>
+<Z>0.489701390266</Z>
+</Vector3>
+<Vector3 name="JointOffset">
+<X>0.125426530838</X>
+<Y>0.118910133839</Y>
+<Z>0.021859256551</Z>
+</Vector3>
+<bool name="Locked">true</bool>
+<Content name="MeshId"><url>rbxassetid://123226534219743</url></Content>
+<string name="Name">LeftLowerArm</string>
+<SharedString name="PhysicalConfigData">MzBCQzk4NDQ2QThCMTE0Ng==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<CoordinateFrame name="PivotOffset">
+<X>1.048891544342</X>
+<Y>-0.865534186363</Y>
+<Z>-0.008500069380</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>0.000000000000</R11>
+<R12>-1.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>1.000000000000</R21>
+<R22>0.000000000000</R22>
+</CoordinateFrame>
+<Vector3 name="RotVelocity">
+<X>0.000002139276</X>
+<Y>-0.000000000000</Y>
+<Z>-0.000001674160</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>0.497517108917</X>
+<Y>0.507515251637</Y>
+<Z>0.489701390266</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000001461853</X>
+<Y>0.000013001976</Y>
+<Z>-0.000001867985</Z>
+</Vector3>
+</Properties>
+<Item class="Attachment" referent="RBX134">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.078082919121</X>
+<Y>-0.196823060513</Y>
+<Z>0.010484028608</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">LeftWristRigAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX135">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>-0.078082919121</X>
+<Y>-0.196823060513</Y>
+<Z>0.010484028608</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX136">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.125426530838</X>
+<Y>0.118910133839</Y>
+<Z>0.021859256551</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">LeftElbowRigAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX137">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>0.125426530838</X>
+<Y>0.118910133839</Y>
+<Z>0.021859256551</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="BallSocketConstraint" referent="RBX138">
+<Properties>
+<Ref name="Attachment0">RBX55</Ref>
+<Ref name="Attachment1">RBX136</Ref>
+<bool name="LimitsEnabled">true</bool>
+<string name="Name">LeftElbowBallSocket</string>
+<bool name="TwistLimitsEnabled">true</bool>
+<float name="TwistLowerAngle">5.000000000000</float>
+<float name="TwistUpperAngle">120.000000000000</float>
+<float name="UpperAngle">20.000000000000</float>
+</Properties>
+</Item>
+<Item class="AnimationConstraint" referent="RBX139">
+<Properties>
+<Ref name="Attachment0">RBX55</Ref>
+<Ref name="Attachment1">RBX136</Ref>
+<bool name="IsKinematic">true</bool>
+<float name="MaxForce">0.000000000000</float>
+<float name="MaxTorque">3000.000000000000</float>
+<string name="Name">LeftElbow</string>
+<CoordinateFrame name="Transform">
+<X>-0.000362427789</X>
+<Y>0.000073969153</Y>
+<Z>-0.000001947445</Z>
+<R00>0.998515188694</R00>
+<R01>0.013858605176</R01>
+<R02>-0.052681662142</R02>
+<R10>-0.022600863129</R10>
+<R11>0.985328137875</R11>
+<R12>-0.169167608023</R12>
+<R20>0.049564294517</R20>
+<R21>0.170107066631</R21>
+<R22>0.984178304672</R22>
+</CoordinateFrame>
+</Properties>
+</Item>
+<Item class="Vector3Value" referent="RBX140">
+<Properties>
+<string name="Name">OriginalSize</string>
+<Vector3 name="Value">
+<X>0.497517108917</X>
+<Y>0.507515251637</Y>
+<Z>0.489701390266</Z>
+</Vector3>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX141">
+<Properties>
+<string name="Name">AvatarPartScaleType</string>
+<string name="Value">Classic</string>
+</Properties>
+</Item>
+<Item class="WrapTarget" referent="RBX142">
+<Properties>
+<Content name="CageMeshId"><url>rbxassetid://97352353468755</url></Content>
+<CoordinateFrame name="CageOrigin">
+<X>-0.023283123970</X>
+<Y>-0.031146764755</Y>
+<Z>-0.011158548295</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="ImportOrigin">
+<X>1.072174668312</X>
+<Y>-0.834387421608</Y>
+<Z>0.002658478916</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">LeftLowerArmWrapTarget</string>
+</Properties>
+</Item>
+<Item class="SurfaceAppearance" referent="RBX143">
+<Properties>
+<Content name="ColorMap"><url>rbxassetid://87376569035525</url></Content>
+<Content name="NormalMap"><url>rbxassetid://74477601137121</url></Content>
+<Content name="RoughnessMap"><url>rbxassetid://134170373664456</url></Content>
+<Content name="TexturePack"><url>rbxassetid://70390173707661</url></Content>
+</Properties>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX117">
+<Properties>
+<bool name="Anchored">true</bool>
+<CoordinateFrame name="CFrame">
+<X>124.439994812012</X>
+<Y>0.279432892799</Y>
+<Z>46.330051422119</Z>
+<R00>0.842128038406</R00>
+<R01>-0.143321722746</R01>
+<R02>0.519883811474</R02>
+<R10>0.140380084515</R10>
+<R11>0.989062070847</R11>
+<R12>0.045271784067</R12>
+<R20>-0.520685791969</R20>
+<R21>0.034856677055</R21>
+<R22>0.853036463261</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<string name="CollisionGroup">Players</string>
+<int name="CollisionGroupId">3</int>
+<Color3 name="Color">
+<R>0.831372559071</R>
+<G>0.090196080506</G>
+<B>0.694117665291</B>
+</Color3>
+<bool name="HasJointOffset">true</bool>
+<bool name="HasSkinnedMesh">true</bool>
+<Vector3 name="InitialSize">
+<X>0.538201808929</X>
+<Y>0.341133892536</Y>
+<Z>0.654838085175</Z>
+</Vector3>
+<Vector3 name="JointOffset">
+<X>-0.004790276289</X>
+<Y>0.102175995708</Y>
+<Z>0.008584633470</Z>
+</Vector3>
+<bool name="Locked">true</bool>
+<Content name="MeshId"><url>rbxassetid://127246760109522</url></Content>
+<string name="Name">RightLowerLeg</string>
+<SharedString name="PhysicalConfigData">Mzk0MTdCQTQyQzUxMTRDQw==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<CoordinateFrame name="PivotOffset">
+<X>-0.391699492931</X>
+<Y>0.246588483453</Y>
+<Z>-0.035681024194</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>0.000000000000</R11>
+<R12>-1.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>1.000000000000</R21>
+<R22>0.000000000000</R22>
+</CoordinateFrame>
+<Vector3 name="RotVelocity">
+<X>0.000002139276</X>
+<Y>-0.000000000000</Y>
+<Z>-0.000001674160</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>0.538201808929</X>
+<Y>0.341133892536</Y>
+<Z>0.654838085175</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000003118206</X>
+<Y>0.000013707594</Y>
+<Z>-0.000003984507</Z>
+</Vector3>
+</Properties>
+<Item class="AnimationConstraint" referent="RBX144">
+<Properties>
+<Ref name="Attachment0">RBX28</Ref>
+<Ref name="Attachment1">RBX145</Ref>
+<bool name="IsKinematic">true</bool>
+<float name="MaxForce">0.000000000000</float>
+<float name="MaxTorque">3000.000000000000</float>
+<string name="Name">RightKnee</string>
+<CoordinateFrame name="Transform">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>1.000000000000</R00>
+<R01>-0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>0.875423669815</R11>
+<R12>0.483356416225</R12>
+<R20>-0.000000000000</R20>
+<R21>-0.483356416225</R21>
+<R22>0.875423669815</R22>
+</CoordinateFrame>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX146">
+<Properties>
+<string name="Name">AvatarPartScaleType</string>
+<string name="Value">Classic</string>
+</Properties>
+</Item>
+<Item class="WrapTarget" referent="RBX147">
+<Properties>
+<Content name="CageMeshId"><url>rbxassetid://105588970102710</url></Content>
+<CoordinateFrame name="CageOrigin">
+<X>-0.016847938299</X>
+<Y>-0.019121214747</Y>
+<Z>0.022281825542</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="ImportOrigin">
+<X>-0.374851554632</X>
+<Y>0.265709698200</Y>
+<Z>-0.057962849736</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">RightLowerLegWrapTarget</string>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX145">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.004790276289</X>
+<Y>0.102175995708</Y>
+<Z>0.008584633470</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">RightKneeRigAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX148">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>-0.004790276289</X>
+<Y>0.102175995708</Y>
+<Z>0.008584633470</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="BallSocketConstraint" referent="RBX149">
+<Properties>
+<Ref name="Attachment0">RBX28</Ref>
+<Ref name="Attachment1">RBX145</Ref>
+<bool name="LimitsEnabled">true</bool>
+<string name="Name">RightKneeBallSocket</string>
+<bool name="TwistLimitsEnabled">true</bool>
+<float name="TwistLowerAngle">-120.000000000000</float>
+<float name="TwistUpperAngle">-5.000000000000</float>
+<float name="UpperAngle">5.000000000000</float>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX150">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.014532297850</X>
+<Y>-0.056399032474</Y>
+<Z>0.006238225847</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">RightAnkleRigAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX151">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>-0.014532297850</X>
+<Y>-0.056399032474</Y>
+<Z>0.006238225847</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="SurfaceAppearance" referent="RBX152">
+<Properties>
+<Content name="ColorMap"><url>rbxassetid://87376569035525</url></Content>
+<Content name="NormalMap"><url>rbxassetid://74477601137121</url></Content>
+<Content name="RoughnessMap"><url>rbxassetid://134170373664456</url></Content>
+<Content name="TexturePack"><url>rbxassetid://70390173707661</url></Content>
+</Properties>
+</Item>
+<Item class="Vector3Value" referent="RBX153">
+<Properties>
+<string name="Name">OriginalSize</string>
+<Vector3 name="Value">
+<X>0.538201808929</X>
+<Y>0.341133892536</Y>
+<Z>0.654838085175</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX154">
+<Properties>
+<bool name="Anchored">true</bool>
+<CoordinateFrame name="CFrame">
+<X>124.209182739258</X>
+<Y>2.726619243622</Y>
+<Z>46.889266967773</Z>
+<R00>0.829668700695</R00>
+<R01>0.024066615850</R01>
+<R02>0.557737112045</R02>
+<R10>-0.000008446223</R10>
+<R11>0.999070823193</R11>
+<R12>-0.043097816408</R12>
+<R20>-0.558256089687</R20>
+<R21>0.035752199590</R21>
+<R22>0.828898012638</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<string name="CollisionGroup">Players</string>
+<int name="CollisionGroupId">3</int>
+<Color3 name="Color">
+<R>0.831372559071</R>
+<G>0.090196080506</G>
+<B>0.694117665291</B>
+</Color3>
+<bool name="HasJointOffset">true</bool>
+<bool name="HasSkinnedMesh">true</bool>
+<Vector3 name="InitialSize">
+<X>1.137594699860</X>
+<Y>1.867098450661</Y>
+<Z>1.158075094223</Z>
+</Vector3>
+<Vector3 name="JointOffset">
+<X>-0.002366907429</X>
+<Y>-0.829658031464</Y>
+<Z>0.007650224492</Z>
+</Vector3>
+<bool name="Locked">true</bool>
+<Content name="MeshId"><url>rbxassetid://122135829084907</url></Content>
+<string name="Name">Head</string>
+<SharedString name="PhysicalConfigData">OTZERUEwRDQ4RDJFQUMzMQ==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<CoordinateFrame name="PivotOffset">
+<X>-0.003649383783</X>
+<Y>-2.295229911804</Y>
+<Z>-0.001030296087</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>0.000000000000</R11>
+<R12>-1.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>1.000000000000</R21>
+<R22>0.000000000000</R22>
+</CoordinateFrame>
+<Vector3 name="RotVelocity">
+<X>0.000002139276</X>
+<Y>-0.000000000000</Y>
+<Z>-0.000001674160</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.137594699860</X>
+<Y>1.867098450661</Y>
+<Z>1.158075094223</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>0.000000978776</X>
+<Y>0.000012897694</Y>
+<Z>0.000001250701</Z>
+</Vector3>
+</Properties>
+<Item class="BallSocketConstraint" referent="RBX155">
+<Properties>
+<Ref name="Attachment0">RBX124</Ref>
+<Ref name="Attachment1">RBX156</Ref>
+<bool name="LimitsEnabled">true</bool>
+<string name="Name">NeckBallSocket</string>
+<bool name="TwistLimitsEnabled">true</bool>
+<float name="TwistLowerAngle">-40.000000000000</float>
+<float name="TwistUpperAngle">40.000000000000</float>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX157">
+<Properties>
+<string name="Name">AvatarPartScaleType</string>
+<string name="Value">Classic</string>
+</Properties>
+</Item>
+<Item class="FaceControls" referent="RBX158">
+<Properties>
+</Properties>
+</Item>
+<Item class="AnimationConstraint" referent="RBX159">
+<Properties>
+<Ref name="Attachment0">RBX124</Ref>
+<Ref name="Attachment1">RBX156</Ref>
+<bool name="IsKinematic">true</bool>
+<float name="MaxForce">0.000000000000</float>
+<float name="MaxTorque">3000.000000000000</float>
+<string name="Name">Neck</string>
+<CoordinateFrame name="Transform">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.998351454735</R00>
+<R01>-0.019012998790</R01>
+<R02>-0.054156370461</R02>
+<R10>0.016265660524</R10>
+<R11>0.998580098152</R11>
+<R12>-0.050726417452</R12>
+<R20>0.055043935776</R20>
+<R21>0.049761902541</R21>
+<R22>0.997243165970</R22>
+</CoordinateFrame>
+</Properties>
+</Item>
+<Item class="Vector3Value" referent="RBX160">
+<Properties>
+<string name="Name">OriginalSize</string>
+<Vector3 name="Value">
+<X>1.137594699860</X>
+<Y>1.867098450661</Y>
+<Z>1.158075094223</Z>
+</Vector3>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX156">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.002366907429</X>
+<Y>-0.829658031464</Y>
+<Z>0.007650224492</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">NeckRigAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX161">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>-0.002366907429</X>
+<Y>-0.829658031464</Y>
+<Z>0.007650224492</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX162">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.002366906498</X>
+<Y>0.548025608063</Y>
+<Z>0.068049103022</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">HatAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX163">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>-0.002366906498</X>
+<Y>0.548025608063</Y>
+<Z>0.068049103022</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="SurfaceAppearance" referent="RBX164">
+<Properties>
+<Content name="ColorMap"><url>rbxassetid://87376569035525</url></Content>
+<Content name="NormalMap"><url>rbxassetid://74477601137121</url></Content>
+<Content name="RoughnessMap"><url>rbxassetid://134170373664456</url></Content>
+<Content name="TexturePack"><url>rbxassetid://70390173707661</url></Content>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX165">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.002366906498</X>
+<Y>0.548025608063</Y>
+<Z>0.068049103022</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">HairAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX166">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>-0.002366906498</X>
+<Y>0.548025608063</Y>
+<Z>0.068049103022</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="NoCollisionConstraint" referent="RBX167">
+<Properties>
+<string name="Name">HumanoidRootPartNoCollision</string>
+<Ref name="Part0">RBX154</Ref>
+<Ref name="Part1">RBX2</Ref>
+</Properties>
+</Item>
+<Item class="NoCollisionConstraint" referent="RBX168">
+<Properties>
+<string name="Name">LeftUpperArmNoCollision</string>
+<Ref name="Part0">RBX154</Ref>
+<Ref name="Part1">RBX39</Ref>
+</Properties>
+</Item>
+<Item class="WrapTarget" referent="RBX169">
+<Properties>
+<Content name="CageMeshId"><url>rbxassetid://133064911366103</url></Content>
+<CoordinateFrame name="CageOrigin">
+<X>-0.021346032619</X>
+<Y>0.035062789917</Y>
+<Z>-0.011996716261</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="ImportOrigin">
+<X>0.017696648836</X>
+<Y>-2.330292701721</Y>
+<Z>0.010966420174</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">HeadWrapTarget</string>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX170">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.002366662025</X>
+<Y>-0.251064538956</Y>
+<Z>-0.447459340096</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">FaceFrontAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX171">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>-0.002366662025</X>
+<Y>-0.251064538956</Y>
+<Z>-0.447459340096</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="NoCollisionConstraint" referent="RBX172">
+<Properties>
+<string name="Name">RightUpperArmNoCollision</string>
+<Ref name="Part0">RBX154</Ref>
+<Ref name="Part1">RBX173</Ref>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX174">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.002366900444</X>
+<Y>0.024972200394</Y>
+<Z>-0.199007153511</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">FaceCenterAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX175">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>-0.002366900444</X>
+<Y>0.024972200394</Y>
+<Z>-0.199007153511</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX50">
+<Properties>
+<bool name="Anchored">true</bool>
+<CoordinateFrame name="CFrame">
+<X>123.696289062500</X>
+<Y>0.578096449375</Y>
+<Z>47.217163085938</Z>
+<R00>0.836036443710</R00>
+<R01>-0.020958565176</R01>
+<R02>0.548273444176</R02>
+<R10>0.092902049422</R10>
+<R11>0.990248978138</R11>
+<R12>-0.103808254004</R12>
+<R20>-0.540751576424</R20>
+<R21>0.137723207474</R21>
+<R22>0.829831302166</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<string name="CollisionGroup">Players</string>
+<int name="CollisionGroupId">3</int>
+<Color3 name="Color">
+<R>0.831372559071</R>
+<G>0.090196080506</G>
+<B>0.694117665291</B>
+</Color3>
+<bool name="HasJointOffset">true</bool>
+<bool name="HasSkinnedMesh">true</bool>
+<Vector3 name="InitialSize">
+<X>1.141334056854</X>
+<Y>1.230449199677</Y>
+<Z>0.447297751904</Z>
+</Vector3>
+<Vector3 name="JointOffset">
+<X>-0.387947857380</X>
+<Y>0.527420163155</Y>
+<Z>-0.011720675975</Z>
+</Vector3>
+<bool name="Locked">true</bool>
+<Content name="MeshId"><url>rbxassetid://114671871035355</url></Content>
+<string name="Name">LeftHand</string>
+<SharedString name="PhysicalConfigData">MjBENDY1Rjc4OERCNDUzNw==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<CoordinateFrame name="PivotOffset">
+<X>0.739026606083</X>
+<Y>-0.141290947795</Y>
+<Z>-0.030704773962</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>0.000000000000</R11>
+<R12>-1.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>1.000000000000</R21>
+<R22>0.000000000000</R22>
+</CoordinateFrame>
+<Vector3 name="RotVelocity">
+<X>0.000002139276</X>
+<Y>-0.000000000000</Y>
+<Z>-0.000001674160</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.141334056854</X>
+<Y>1.230449199677</Y>
+<Z>0.447297751904</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000002618195</X>
+<Y>0.000013054900</Y>
+<Z>-0.000003345583</Z>
+</Vector3>
+</Properties>
+<Item class="StringValue" referent="RBX176">
+<Properties>
+<string name="Name">AvatarPartScaleType</string>
+<string name="Value">Classic</string>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX177">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.387947857380</X>
+<Y>0.527420163155</Y>
+<Z>-0.011720675975</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">LeftWristRigAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX178">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>-0.387947857380</X>
+<Y>0.527420163155</Y>
+<Z>-0.011720675975</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="Vector3Value" referent="RBX179">
+<Properties>
+<string name="Name">OriginalSize</string>
+<Vector3 name="Value">
+<X>1.141334056854</X>
+<Y>1.230449199677</Y>
+<Z>0.447297751904</Z>
+</Vector3>
+</Properties>
+</Item>
+<Item class="BallSocketConstraint" referent="RBX180">
+<Properties>
+<Ref name="Attachment0">RBX134</Ref>
+<Ref name="Attachment1">RBX177</Ref>
+<bool name="LimitsEnabled">true</bool>
+<string name="Name">LeftWristBallSocket</string>
+<bool name="TwistLimitsEnabled">true</bool>
+<float name="TwistLowerAngle">-10.000000000000</float>
+<float name="TwistUpperAngle">10.000000000000</float>
+<float name="UpperAngle">30.000000000000</float>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX181">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.419052898884</X>
+<Y>0.446723461151</Y>
+<Z>-0.030555186793</Z>
+<R00>0.920516788960</R00>
+<R01>-0.000003801950</R01>
+<R02>0.390703052282</R02>
+<R10>-0.390703052282</R10>
+<R11>-0.000018721268</R11>
+<R12>0.920516788960</R12>
+<R20>0.000003814697</R20>
+<R21>-1.000000000000</R21>
+<R22>-0.000018718676</R22>
+</CoordinateFrame>
+<string name="Name">LeftGripAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX182">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>-0.419052898884</X>
+<Y>0.446723461151</Y>
+<Z>-0.030555186793</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="SurfaceAppearance" referent="RBX183">
+<Properties>
+<Content name="ColorMap"><url>rbxassetid://87376569035525</url></Content>
+<Content name="NormalMap"><url>rbxassetid://74477601137121</url></Content>
+<Content name="RoughnessMap"><url>rbxassetid://134170373664456</url></Content>
+<Content name="TexturePack"><url>rbxassetid://70390173707661</url></Content>
+</Properties>
+</Item>
+<Item class="AnimationConstraint" referent="RBX184">
+<Properties>
+<Ref name="Attachment0">RBX134</Ref>
+<Ref name="Attachment1">RBX177</Ref>
+<bool name="IsKinematic">true</bool>
+<float name="MaxForce">0.000000000000</float>
+<float name="MaxTorque">3000.000000000000</float>
+<string name="Name">LeftWrist</string>
+</Properties>
+</Item>
+<Item class="WrapTarget" referent="RBX185">
+<Properties>
+<Content name="CageMeshId"><url>rbxassetid://128660050583302</url></Content>
+<CoordinateFrame name="CageOrigin">
+<X>-0.411049187183</X>
+<Y>0.458693683147</Y>
+<Z>-0.037432096899</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="ImportOrigin">
+<X>1.150075793266</X>
+<Y>-0.599984645844</Y>
+<Z>0.006727322936</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">LeftHandWrapTarget</string>
+</Properties>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX103">
+<Properties>
+<bool name="Anchored">true</bool>
+<CoordinateFrame name="CFrame">
+<X>123.617027282715</X>
+<Y>0.245583057404</Y>
+<Z>46.988540649414</Z>
+<R00>0.812594234943</R00>
+<R01>-0.020841509104</R01>
+<R02>0.582457065582</R02>
+<R10>-0.158529609442</R10>
+<R11>0.953778207302</R11>
+<R12>0.255295127630</R12>
+<R20>-0.560855567455</R20>
+<R21>-0.299787998199</R21>
+<R22>0.771730542183</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<string name="CollisionGroup">Players</string>
+<int name="CollisionGroupId">3</int>
+<Color3 name="Color">
+<R>0.831372559071</R>
+<G>0.090196080506</G>
+<B>0.694117665291</B>
+</Color3>
+<bool name="HasJointOffset">true</bool>
+<bool name="HasSkinnedMesh">true</bool>
+<Vector3 name="InitialSize">
+<X>0.538201808929</X>
+<Y>0.341133952141</Y>
+<Z>0.654837965965</Z>
+</Vector3>
+<Vector3 name="JointOffset">
+<X>0.012170076370</X>
+<Y>0.078560709953</Y>
+<Z>0.008584618568</Z>
+</Vector3>
+<bool name="Locked">true</bool>
+<Content name="MeshId"><url>rbxassetid://136257207116650</url></Content>
+<string name="Name">LeftLowerLeg</string>
+<SharedString name="PhysicalConfigData">RDQ1MzhEQzRCMjg3MkFGNg==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<CoordinateFrame name="PivotOffset">
+<X>0.391699433327</X>
+<Y>0.246588453650</Y>
+<Z>-0.035680994391</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>0.000000000000</R11>
+<R12>-1.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>1.000000000000</R21>
+<R22>0.000000000000</R22>
+</CoordinateFrame>
+<Vector3 name="RotVelocity">
+<X>0.000002139276</X>
+<Y>-0.000000000000</Y>
+<Z>-0.000001674160</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>0.538201808929</X>
+<Y>0.341133952141</Y>
+<Z>0.654837965965</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000003174876</X>
+<Y>0.000013676683</Y>
+<Z>-0.000004056921</Z>
+</Vector3>
+</Properties>
+<Item class="Attachment" referent="RBX186">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.012170076370</X>
+<Y>0.078560709953</Y>
+<Z>0.008584618568</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">LeftKneeRigAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX187">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>0.012170076370</X>
+<Y>0.078560709953</Y>
+<Z>0.008584618568</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="WrapTarget" referent="RBX188">
+<Properties>
+<Content name="CageMeshId"><url>rbxassetid://117769670470180</url></Content>
+<CoordinateFrame name="CageOrigin">
+<X>0.019164115191</X>
+<Y>-0.019120410085</Y>
+<Z>0.019272625446</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="ImportOrigin">
+<X>0.372535318136</X>
+<Y>0.265708863735</Y>
+<Z>-0.054953619838</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">LeftLowerLegWrapTarget</string>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX189">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.014532238245</X>
+<Y>-0.056398704648</Y>
+<Z>0.006238199770</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">LeftAnkleRigAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX190">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>0.014532238245</X>
+<Y>-0.056398704648</Y>
+<Z>0.006238199770</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="Vector3Value" referent="RBX191">
+<Properties>
+<string name="Name">OriginalSize</string>
+<Vector3 name="Value">
+<X>0.538201808929</X>
+<Y>0.341133952141</Y>
+<Z>0.654837965965</Z>
+</Vector3>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX192">
+<Properties>
+<string name="Name">AvatarPartScaleType</string>
+<string name="Value">Classic</string>
+</Properties>
+</Item>
+<Item class="BallSocketConstraint" referent="RBX193">
+<Properties>
+<Ref name="Attachment0">RBX65</Ref>
+<Ref name="Attachment1">RBX186</Ref>
+<bool name="LimitsEnabled">true</bool>
+<string name="Name">LeftKneeBallSocket</string>
+<bool name="TwistLimitsEnabled">true</bool>
+<float name="TwistLowerAngle">-120.000000000000</float>
+<float name="TwistUpperAngle">-5.000000000000</float>
+<float name="UpperAngle">5.000000000000</float>
+</Properties>
+</Item>
+<Item class="AnimationConstraint" referent="RBX194">
+<Properties>
+<Ref name="Attachment0">RBX65</Ref>
+<Ref name="Attachment1">RBX186</Ref>
+<bool name="IsKinematic">true</bool>
+<float name="MaxForce">0.000000000000</float>
+<float name="MaxTorque">3000.000000000000</float>
+<string name="Name">LeftKnee</string>
+<CoordinateFrame name="Transform">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>1.000000000000</R00>
+<R01>-0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>0.826222896576</R11>
+<R12>0.563343346119</R12>
+<R20>-0.000000000000</R20>
+<R21>-0.563343346119</R21>
+<R22>0.826222896576</R22>
+</CoordinateFrame>
+</Properties>
+</Item>
+<Item class="SurfaceAppearance" referent="RBX195">
+<Properties>
+<Content name="ColorMap"><url>rbxassetid://87376569035525</url></Content>
+<Content name="NormalMap"><url>rbxassetid://74477601137121</url></Content>
+<Content name="RoughnessMap"><url>rbxassetid://134170373664456</url></Content>
+<Content name="TexturePack"><url>rbxassetid://70390173707661</url></Content>
+</Properties>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX196">
+<Properties>
+<bool name="Anchored">true</bool>
+<CoordinateFrame name="CFrame">
+<X>124.181274414062</X>
+<Y>0.793413162231</Y>
+<Z>46.891078948975</Z>
+<R00>0.835076034069</R00>
+<R01>0.000000049170</R01>
+<R02>0.550134539604</R02>
+<R10>-0.000000006496</R10>
+<R11>1.000000000000</R11>
+<R12>-0.000000079517</R12>
+<R20>-0.550134539604</R20>
+<R21>0.000000062829</R21>
+<R22>0.835076034069</R22>
+</CoordinateFrame>
+<string name="CollisionGroup">Players</string>
+<int name="CollisionGroupId">3</int>
+<Color3 name="Color">
+<R>0.121568627656</R>
+<G>0.015686275437</G>
+<B>0.011764706112</B>
+</Color3>
+<bool name="HasJointOffset">true</bool>
+<bool name="HasSkinnedMesh">true</bool>
+<Vector3 name="InitialSize">
+<X>1.728367805481</X>
+<Y>0.910654067993</Y>
+<Z>1.592609643936</Z>
+</Vector3>
+<Vector3 name="JointOffset">
+<X>0.007896095514</X>
+<Y>-0.361316740513</Y>
+<Z>-0.016368597746</Z>
+</Vector3>
+<bool name="Locked">true</bool>
+<Content name="MeshId"><url>rbxassetid://109759480404204</url></Content>
+<string name="Name">LowerTorso</string>
+<SharedString name="PhysicalConfigData">QTMxQzdGREUwMkY5NzI3MQ==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<CoordinateFrame name="PivotOffset">
+<X>0.007896095514</X>
+<Y>-0.361316740513</Y>
+<Z>-0.016368597746</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>0.000000000000</R11>
+<R12>-1.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>1.000000000000</R21>
+<R22>0.000000000000</R22>
+</CoordinateFrame>
+<Vector3 name="RotVelocity">
+<X>0.000002139276</X>
+<Y>-0.000000000000</Y>
+<Z>-0.000001674160</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.728367805481</X>
+<Y>0.910654067993</Y>
+<Z>1.592609643936</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000002257720</X>
+<Y>0.000012940541</Y>
+<Z>-0.000002884961</Z>
+</Vector3>
+</Properties>
+<Item class="Vector3Value" referent="RBX197">
+<Properties>
+<string name="Name">OriginalSize</string>
+<Vector3 name="Value">
+<X>1.728367805481</X>
+<Y>0.910654067993</Y>
+<Z>1.592609643936</Z>
+</Vector3>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX23">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.399662077427</X>
+<Y>0.294593513012</Y>
+<Z>0.035546295345</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">RightHipRigAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX198">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>0.399662077427</X>
+<Y>0.294593513012</Y>
+<Z>0.035546295345</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX199">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.007896095514</X>
+<Y>-0.361316740513</Y>
+<Z>-0.016368597746</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">RootRigAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX200">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>0.007896095514</X>
+<Y>-0.361316740513</Y>
+<Z>-0.016368597746</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX121">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.007896095514</X>
+<Y>0.269114434719</Y>
+<Z>0.008590122685</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">WaistRigAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX201">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>0.007896095514</X>
+<Y>0.269114434719</Y>
+<Z>0.008590122685</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="AnimationConstraint" referent="RBX202">
+<Properties>
+<Ref name="Attachment0">RBX33</Ref>
+<Ref name="Attachment1">RBX199</Ref>
+<bool name="IsKinematic">true</bool>
+<float name="MaxForce">0.000000000000</float>
+<float name="MaxTorque">3000.000000000000</float>
+<string name="Name">Root</string>
+<CoordinateFrame name="Transform">
+<X>0.000000000000</X>
+<Y>-0.053776938468</Y>
+<Z>0.000000000000</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX64">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.383869886398</X>
+<Y>0.294593513012</Y>
+<Z>0.035546295345</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">LeftHipRigAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX203">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>-0.383869886398</X>
+<Y>0.294593513012</Y>
+<Z>0.035546295345</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX204">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.007896095514</X>
+<Y>0.268911540508</Y>
+<Z>-0.026483710855</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">WaistCenterAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX205">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>0.007896095514</X>
+<Y>0.268911540508</Y>
+<Z>-0.026483710855</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX206">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.007896095514</X>
+<Y>0.139163613319</Y>
+<Z>-0.835989832878</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">WaistFrontAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX207">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>0.007896095514</X>
+<Y>0.139163613319</Y>
+<Z>-0.835989832878</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="NoCollisionConstraint" referent="RBX208">
+<Properties>
+<string name="Name">LeftLowerLegNoCollision</string>
+<Ref name="Part0">RBX196</Ref>
+<Ref name="Part1">RBX103</Ref>
+</Properties>
+</Item>
+<Item class="NoCollisionConstraint" referent="RBX209">
+<Properties>
+<string name="Name">LeftUpperArmNoCollision</string>
+<Ref name="Part0">RBX196</Ref>
+<Ref name="Part1">RBX39</Ref>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX210">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.007896065712</X>
+<Y>0.272902250290</Y>
+<Z>0.633461833000</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">WaistBackAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX211">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>0.007896065712</X>
+<Y>0.272902250290</Y>
+<Z>0.633461833000</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="WrapTarget" referent="RBX212">
+<Properties>
+<Content name="CageMeshId"><url>rbxassetid://117907736055642</url></Content>
+<CoordinateFrame name="CageOrigin">
+<X>0.005294710398</X>
+<Y>-0.072919636965</Y>
+<Z>-0.006094336510</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="ImportOrigin">
+<X>0.002601385117</X>
+<Y>-0.288397103548</Y>
+<Z>-0.010274261236</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">LowerTorsoWrapTarget</string>
+</Properties>
+</Item>
+<Item class="SurfaceAppearance" referent="RBX213">
+<Properties>
+<Content name="ColorMap"><url>rbxassetid://87376569035525</url></Content>
+<Content name="NormalMap"><url>rbxassetid://74477601137121</url></Content>
+<Content name="RoughnessMap"><url>rbxassetid://134170373664456</url></Content>
+<Content name="TexturePack"><url>rbxassetid://70390173707661</url></Content>
+</Properties>
+</Item>
+<Item class="NoCollisionConstraint" referent="RBX214">
+<Properties>
+<string name="Name">RightLowerLegNoCollision</string>
+<Ref name="Part0">RBX196</Ref>
+<Ref name="Part1">RBX117</Ref>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX215">
+<Properties>
+<string name="Name">AvatarPartScaleType</string>
+<string name="Value">Classic</string>
+</Properties>
+</Item>
+<Item class="NoCollisionConstraint" referent="RBX216">
+<Properties>
+<string name="Name">RightUpperArmNoCollision</string>
+<Ref name="Part0">RBX196</Ref>
+<Ref name="Part1">RBX173</Ref>
+</Properties>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX68">
+<Properties>
+<bool name="Anchored">true</bool>
+<CoordinateFrame name="CFrame">
+<X>123.633476257324</X>
+<Y>0.100347414613</Y>
+<Z>46.996135711670</Z>
+<R00>0.835043668747</R00>
+<R01>-0.000109180808</R01>
+<R02>0.550183594227</R02>
+<R10>0.000078814104</R10>
+<R11>1.000000119209</R11>
+<R12>0.000078916550</R12>
+<R20>-0.550183594227</R20>
+<R21>-0.000022560358</R21>
+<R22>0.835043609142</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<string name="CollisionGroup">Players</string>
+<int name="CollisionGroupId">3</int>
+<Color3 name="Color">
+<R>0.831372559071</R>
+<G>0.090196080506</G>
+<B>0.694117665291</B>
+</Color3>
+<bool name="HasJointOffset">true</bool>
+<bool name="HasSkinnedMesh">true</bool>
+<Vector3 name="InitialSize">
+<X>0.431212216616</X>
+<Y>0.184308588505</Y>
+<Z>0.458159506321</Z>
+</Vector3>
+<Vector3 name="JointOffset">
+<X>-0.003138035536</X>
+<Y>0.090732425451</Y>
+<Z>0.005090646446</Z>
+</Vector3>
+<bool name="Locked">true</bool>
+<Content name="MeshId"><url>rbxassetid://128597294309294</url></Content>
+<string name="Name">LeftFoot</string>
+<SharedString name="PhysicalConfigData">RjVDM0M3QjgyQjNEMzAwQw==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<CoordinateFrame name="PivotOffset">
+<X>0.374029159546</X>
+<Y>0.393719583750</Y>
+<Z>-0.036828547716</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>0.000000000000</R11>
+<R12>-1.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>1.000000000000</R21>
+<R22>0.000000000000</R22>
+</CoordinateFrame>
+<Vector3 name="RotVelocity">
+<X>0.000002139276</X>
+<Y>-0.000000000000</Y>
+<Z>-0.000001674160</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>0.431212216616</X>
+<Y>0.184308588505</Y>
+<Z>0.458159506321</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000003418023</X>
+<Y>0.000013632897</Y>
+<Z>-0.000004367620</Z>
+</Vector3>
+</Properties>
+<Item class="StringValue" referent="RBX217">
+<Properties>
+<string name="Name">AvatarPartScaleType</string>
+<string name="Value">Classic</string>
+</Properties>
+</Item>
+<Item class="BallSocketConstraint" referent="RBX218">
+<Properties>
+<Ref name="Attachment0">RBX189</Ref>
+<Ref name="Attachment1">RBX219</Ref>
+<bool name="LimitsEnabled">true</bool>
+<string name="Name">LeftAnkleBallSocket</string>
+<bool name="TwistLimitsEnabled">true</bool>
+<float name="TwistLowerAngle">-10.000000000000</float>
+<float name="TwistUpperAngle">10.000000000000</float>
+<float name="UpperAngle">10.000000000000</float>
+</Properties>
+</Item>
+<Item class="WrapTarget" referent="RBX220">
+<Properties>
+<Content name="CageMeshId"><url>rbxassetid://132240906437073</url></Content>
+<CoordinateFrame name="CageOrigin">
+<X>0.008715420961</X>
+<Y>-0.027730673552</Y>
+<Z>0.023949667811</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="ImportOrigin">
+<X>0.365313738585</X>
+<Y>0.421450257301</Y>
+<Z>-0.060778215528</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">LeftFootWrapTarget</string>
+</Properties>
+</Item>
+<Item class="SurfaceAppearance" referent="RBX221">
+<Properties>
+<Content name="ColorMap"><url>rbxassetid://87376569035525</url></Content>
+<Content name="NormalMap"><url>rbxassetid://74477601137121</url></Content>
+<Content name="RoughnessMap"><url>rbxassetid://134170373664456</url></Content>
+<Content name="TexturePack"><url>rbxassetid://70390173707661</url></Content>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX219">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.003138035536</X>
+<Y>0.090732425451</Y>
+<Z>0.005090646446</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">LeftAnkleRigAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX222">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>-0.003138035536</X>
+<Y>0.090732425451</Y>
+<Z>0.005090646446</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX223">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.015941649675</X>
+<Y>-0.115158289671</Y>
+<Z>-0.003649890423</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">LeftFootAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX224">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>-0.015941649675</X>
+<Y>-0.115158289671</Y>
+<Z>-0.003649890423</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="AnimationConstraint" referent="RBX225">
+<Properties>
+<Ref name="Attachment0">RBX189</Ref>
+<Ref name="Attachment1">RBX219</Ref>
+<bool name="IsKinematic">true</bool>
+<float name="MaxForce">0.000000000000</float>
+<float name="MaxTorque">3000.000000000000</float>
+<string name="Name">LeftAnkle</string>
+<CoordinateFrame name="Transform">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.987112760544</R00>
+<R01>-0.158605664968</R01>
+<R02>-0.021275430918</R02>
+<R10>0.147609978914</R10>
+<R11>0.953787207603</R11>
+<R12>-0.261727452278</R12>
+<R20>0.061803691089</R20>
+<R21>0.255214035511</R21>
+<R22>0.964907288551</R22>
+</CoordinateFrame>
+</Properties>
+</Item>
+<Item class="Vector3Value" referent="RBX226">
+<Properties>
+<string name="Name">OriginalSize</string>
+<Vector3 name="Value">
+<X>0.431212216616</X>
+<Y>0.184308588505</Y>
+<Z>0.458159506321</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX173">
+<Properties>
+<bool name="Anchored">true</bool>
+<CoordinateFrame name="CFrame">
+<X>124.920379638672</X>
+<Y>1.553356766701</Y>
+<Z>46.552261352539</Z>
+<R00>0.782612144947</R00>
+<R01>0.208682641387</R01>
+<R02>0.586489379406</R02>
+<R10>-0.258380532265</R10>
+<R11>0.966042637825</R11>
+<R12>0.001049312297</R12>
+<R20>-0.566354811192</R20>
+<R21>-0.152358666062</R21>
+<R22>0.809956192970</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<string name="CollisionGroup">Players</string>
+<int name="CollisionGroupId">3</int>
+<Color3 name="Color">
+<R>0.831372559071</R>
+<G>0.090196080506</G>
+<B>0.694117665291</B>
+</Color3>
+<bool name="HasJointOffset">true</bool>
+<bool name="HasSkinnedMesh">true</bool>
+<Vector3 name="InitialSize">
+<X>0.618664324284</X>
+<Y>0.548823773861</Y>
+<Z>0.622757315636</Z>
+</Vector3>
+<Vector3 name="JointOffset">
+<X>-0.198994576931</X>
+<Y>0.206835508347</Y>
+<Z>-0.028385758400</Z>
+</Vector3>
+<bool name="Locked">true</bool>
+<Content name="MeshId"><url>rbxassetid://124726012197886</url></Content>
+<string name="Name">RightUpperArm</string>
+<SharedString name="PhysicalConfigData">N0FCOUZCNjZEMTZGODlEMA==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<CoordinateFrame name="PivotOffset">
+<X>-0.834954738617</X>
+<Y>-1.175403714180</Y>
+<Z>-0.193219453096</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>0.000000000000</R11>
+<R12>-1.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>1.000000000000</R21>
+<R22>0.000000000000</R22>
+</CoordinateFrame>
+<Vector3 name="RotVelocity">
+<X>0.000002139276</X>
+<Y>-0.000000000000</Y>
+<Z>-0.000001674160</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>0.618664324284</X>
+<Y>0.548823773861</Y>
+<Z>0.622757315636</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000000985453</X>
+<Y>0.000012427985</Y>
+<Z>-0.000001259232</Z>
+</Vector3>
+</Properties>
+<Item class="NoCollisionConstraint" referent="RBX227">
+<Properties>
+<string name="Name">RightHandNoCollision</string>
+<Ref name="Part0">RBX173</Ref>
+<Ref name="Part1">RBX73</Ref>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX228">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.198994576931</X>
+<Y>0.206835508347</Y>
+<Z>-0.028385758400</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">RightShoulderRigAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX229">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>-0.198994576931</X>
+<Y>0.206835508347</Y>
+<Z>-0.028385758400</Z>
+</Vector3>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX230">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.000000000000</R00>
+<R01>1.000000000000</R01>
+<R02>-0.000000000000</R02>
+<R10>-1.000000000000</R10>
+<R11>0.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">JointRotation</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX231">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>-0.198994576931</X>
+<Y>0.206835508347</Y>
+<Z>-0.028385758400</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX232">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.006242632866</X>
+<Y>0.297063827515</Y>
+<Z>0.055388554931</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">RightShoulderAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX233">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>0.006242632866</X>
+<Y>0.297063827515</Y>
+<Z>0.055388554931</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX90">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.100113689899</X>
+<Y>-0.209227144718</Y>
+<Z>0.047803923488</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">RightElbowRigAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX234">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>0.100113689899</X>
+<Y>-0.209227144718</Y>
+<Z>0.047803923488</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="AnimationConstraint" referent="RBX235">
+<Properties>
+<Ref name="Attachment0">RBX104</Ref>
+<Ref name="Attachment1">RBX228</Ref>
+<bool name="IsKinematic">true</bool>
+<float name="MaxForce">0.000000000000</float>
+<float name="MaxTorque">3000.000000000000</float>
+<string name="Name">RightShoulder</string>
+<CoordinateFrame name="Transform">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.970007002354</R00>
+<R01>0.242207899690</R01>
+<R02>-0.020537648350</R02>
+<R10>-0.242374733090</R10>
+<R11>0.970164000988</R11>
+<R12>-0.006028162781</R12>
+<R20>0.018464818597</R20>
+<R21>0.010825166479</R21>
+<R22>0.999770879745</R22>
+</CoordinateFrame>
+</Properties>
+</Item>
+<Item class="SurfaceAppearance" referent="RBX236">
+<Properties>
+<Content name="ColorMap"><url>rbxassetid://87376569035525</url></Content>
+<Content name="NormalMap"><url>rbxassetid://74477601137121</url></Content>
+<Content name="RoughnessMap"><url>rbxassetid://134170373664456</url></Content>
+<Content name="TexturePack"><url>rbxassetid://70390173707661</url></Content>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX237">
+<Properties>
+<string name="Name">AvatarPartScaleType</string>
+<string name="Value">Classic</string>
+</Properties>
+</Item>
+<Item class="WrapTarget" referent="RBX238">
+<Properties>
+<Content name="CageMeshId"><url>rbxassetid://95301980250029</url></Content>
+<CoordinateFrame name="CageOrigin">
+<X>0.080426096916</X>
+<Y>-0.021081805229</Y>
+<Z>-0.019867897034</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="ImportOrigin">
+<X>-0.915380835533</X>
+<Y>-1.154321908951</Y>
+<Z>-0.173351556063</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">RightUpperArmWrapTarget</string>
+</Properties>
+</Item>
+<Item class="Vector3Value" referent="RBX239">
+<Properties>
+<string name="Name">OriginalSize</string>
+<Vector3 name="Value">
+<X>0.618664324284</X>
+<Y>0.548823773861</Y>
+<Z>0.622757315636</Z>
+</Vector3>
+</Properties>
+</Item>
+<Item class="BallSocketConstraint" referent="RBX240">
+<Properties>
+<Ref name="Attachment0">RBX106</Ref>
+<Ref name="Attachment1">RBX230</Ref>
+<bool name="LimitsEnabled">true</bool>
+<string name="Name">RightShoulderBallSocket</string>
+<bool name="TwistLimitsEnabled">true</bool>
+<float name="TwistLowerAngle">-85.000000000000</float>
+<float name="TwistUpperAngle">85.000000000000</float>
+<float name="UpperAngle">110.000000000000</float>
+</Properties>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX20">
+<Properties>
+<bool name="Anchored">true</bool>
+<CoordinateFrame name="CFrame">
+<X>124.433662414551</X>
+<Y>0.131160691381</Y>
+<Z>46.338451385498</Z>
+<R00>0.835103750229</R00>
+<R01>-0.000041685998</R01>
+<R02>0.550092339516</R02>
+<R10>0.000013438868</R10>
+<R11>0.999999880791</R11>
+<R12>0.000055387616</R12>
+<R20>-0.550092279911</R20>
+<R21>-0.000038884580</R21>
+<R22>0.835103809834</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<string name="CollisionGroup">Players</string>
+<int name="CollisionGroupId">3</int>
+<Color3 name="Color">
+<R>0.831372559071</R>
+<G>0.090196080506</G>
+<B>0.694117665291</B>
+</Color3>
+<bool name="HasJointOffset">true</bool>
+<bool name="HasSkinnedMesh">true</bool>
+<Vector3 name="InitialSize">
+<X>0.431212127209</X>
+<Y>0.184308618307</Y>
+<Z>0.458159506321</Z>
+</Vector3>
+<Vector3 name="JointOffset">
+<X>0.003138065338</X>
+<Y>0.090732097626</Y>
+<Z>0.005090665072</Z>
+</Vector3>
+<bool name="Locked">true</bool>
+<Content name="MeshId"><url>rbxassetid://87310407100094</url></Content>
+<string name="Name">RightFoot</string>
+<SharedString name="PhysicalConfigData">QkY5QzdFRUUwNkZDQTJCNg==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<CoordinateFrame name="PivotOffset">
+<X>-0.374029129744</X>
+<Y>0.393719613552</Y>
+<Z>-0.036828584969</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>0.000000000000</R11>
+<R12>-1.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>1.000000000000</R21>
+<R22>0.000000000000</R22>
+</CoordinateFrame>
+<Vector3 name="RotVelocity">
+<X>0.000002139276</X>
+<Y>-0.000000000000</Y>
+<Z>-0.000001674160</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>0.431212127209</X>
+<Y>0.184308618307</Y>
+<Z>0.458159506321</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000003366437</X>
+<Y>0.000013700225</Y>
+<Z>-0.000004301703</Z>
+</Vector3>
+</Properties>
+<Item class="SurfaceAppearance" referent="RBX241">
+<Properties>
+<Content name="ColorMap"><url>rbxassetid://87376569035525</url></Content>
+<Content name="NormalMap"><url>rbxassetid://74477601137121</url></Content>
+<Content name="RoughnessMap"><url>rbxassetid://134170373664456</url></Content>
+<Content name="TexturePack"><url>rbxassetid://70390173707661</url></Content>
+</Properties>
+</Item>
+<Item class="AnimationConstraint" referent="RBX242">
+<Properties>
+<Ref name="Attachment0">RBX150</Ref>
+<Ref name="Attachment1">RBX243</Ref>
+<bool name="IsKinematic">true</bool>
+<float name="MaxForce">0.000000000000</float>
+<float name="MaxTorque">3000.000000000000</float>
+<string name="Name">RightAnkle</string>
+<CoordinateFrame name="Transform">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.989691555500</R00>
+<R01>0.140365242958</R01>
+<R02>0.028429253027</R02>
+<R10>-0.138849645853</R10>
+<R11>0.989066720009</R11>
+<R12>-0.049676448107</R12>
+<R20>-0.035091273487</R20>
+<R21>0.045216970146</R21>
+<R22>0.998360693455</R22>
+</CoordinateFrame>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX244">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.004164397717</X>
+<Y>-0.120764613152</Y>
+<Z>0.003002543002</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">RightFootAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX245">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>-0.004164397717</X>
+<Y>-0.120764613152</Y>
+<Z>0.003002543002</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX243">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.003138065338</X>
+<Y>0.090732097626</Y>
+<Z>0.005090665072</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">RightAnkleRigAttachment</string>
+</Properties>
+<Item class="Vector3Value" referent="RBX246">
+<Properties>
+<string name="Name">OriginalPosition</string>
+<Vector3 name="Value">
+<X>0.003138065338</X>
+<Y>0.090732097626</Y>
+<Z>0.005090665072</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+<Item class="WrapTarget" referent="RBX247">
+<Properties>
+<Content name="CageMeshId"><url>rbxassetid://83888054968535</url></Content>
+<CoordinateFrame name="CageOrigin">
+<X>-0.008025169373</X>
+<Y>-0.027730643749</Y>
+<Z>0.024263329804</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="ImportOrigin">
+<X>-0.366003960371</X>
+<Y>0.421450257301</Y>
+<Z>-0.061091914773</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">RightFootWrapTarget</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX248">
+<Properties>
+<string name="Name">AvatarPartScaleType</string>
+<string name="Value">Classic</string>
+</Properties>
+</Item>
+<Item class="BallSocketConstraint" referent="RBX249">
+<Properties>
+<Ref name="Attachment0">RBX150</Ref>
+<Ref name="Attachment1">RBX243</Ref>
+<bool name="LimitsEnabled">true</bool>
+<string name="Name">RightAnkleBallSocket</string>
+<bool name="TwistLimitsEnabled">true</bool>
+<float name="TwistLowerAngle">-10.000000000000</float>
+<float name="TwistUpperAngle">10.000000000000</float>
+<float name="UpperAngle">10.000000000000</float>
+</Properties>
+</Item>
+<Item class="Vector3Value" referent="RBX250">
+<Properties>
+<string name="Name">OriginalSize</string>
+<Vector3 name="Value">
+<X>0.431212127209</X>
+<Y>0.184308618307</Y>
+<Z>0.458159506321</Z>
+</Vector3>
+</Properties>
+</Item>
+</Item>
+</Item>
+<SharedStrings>
+<SharedString md5="QjI5NThCMUM2QzUxNzhFQQ==">Q1NHUEhTCAAAAAIAKLUv/WDIAc0VABQqAQAAADQAAABkxxxwAgAAlOygvuAyEb+L5dC+lOygPuAyET+L5dA+BQAUBbm0VSdVVVpFVOWiqm3b1Nv+7Eu2bwAAAEYyFDy7B/Y7pTbzPXjUm76/U2I+UVypvnqXpz75yow+OPGsvrz/ZT6Tuog+hTjKvnoAXT4zMYQ+8TXzvme+Sz46RYI+qAMDv04xQT7Slkw+2EMEv8KCiD5yy+094BYFvzzpoz7K7W48cqIEvzafrD600mG8fFGbvhgozj5wyvy9w0qVvuG+tz5Y8Fi+U++Mvocpkj4JRo6+ikKFvk0zRT4lO6C+NDmBvsc2tz2U7KC+3mSBvs9De7x88Y++FNSFvurG8b2Zg1q+Q0mLvmXEV76sYwW+M4qRvvrnlr4tLjG99weWvrL+ub4U4Jo9JX2+eHNaPvxSpb5TgMK+VAeLPgKetL6cYY++pKGbPtbBur6Lfh9Qrbm+gUPGvBpnmj5/BrO+vvfVPS2Jlz6aW8u+tFnTPdkNkj5npPK+I8HGPZOAjz5keQK/AJi9Pd1yszzgMhG/+kxEPDJiq72oAwO/XL2fPrAKATyvhPS+FsyyPgApvr1d+O++znukPj/9KL5AiQG/RSeDPtFkNL7t0eu+o6uGPuJLR76UELy+OY+MPls8br7noui+l3c7PvUKfb5HJv++gzu2PdNtfr7xUf++aRdhu+c9Z74QSQC/h46/vfrbN75gIwG/Stwzvrof6L0CVQK/Ez98vrTS4byoAwO/70uYvqFukj0ecgK/N5qivg2rLz7mNwK/cfSavkygfz6fMAK/FDlwvuccgj474fC+R099vjgKmD559s++QjYhvpVgkz4s7fK+p/sJvolSlD6AlgK/jUBqvGVikD6rgAK/mQwCvlsjYr6eVwC/Jbk2PggAXFp53rM5eZUlXsoCADAXBATQuEc=</SharedString>
+<SharedString md5="QzNEN0VGMTgxMjU5MjIxOQ==">Q1NHUEhTCAAAAAIAKLUv/WDUATUWANQqAQAAADUAAABmyxx8AgAAbymfvjYqEb+85NC+bymfPjYqET+85NA+BQAUBUu1pxZLFbuFVLWqijZbratfk23bvwMAAIhi07vHBvY7DjDsvSzLm75Fl4w8N0ibvkwnzj417wE+2kGVviu+tz41DcU9mfjvvit7pD46O7I91/sCv768nz6Ok5G7GHb0vmXLsj5Udze8iJoEv4uerD4M1Oa97w4Fv5rooz49Ckm+rTQEvzqCiD4Jyl6+NlKpvtSWpz5uCIu+c/Wsvtn+ZT5Drpi+0Puyvur21T1vKZ++rpO5vr1Cxrxh3Zm+JKi6vu19H766SYm+yKG0vg5hj776z1a+rFelvgqKwr6Ok5G9Eq6+XOdMPSu8lr6B87m+pBcMPh8wkr5k55a+gCpePppsi76Pw1e+KG2PPqXahb7b7/G9bymfPualgb7S83m84JGePsyIgb4RNrc9Re6NPj1mhb6KMkU+f3xbPnj1jL72KJI+8MhKPugTvL6ujow+Aec3PmfS674dq4Y+dI8sPsyIAb/DJoM+ug6YvDYqEb83TEQ8RoCAvh0DA7+OMEE+1m6Cvvs1876dvUs+cvuGvnQsyr6f/1w+ab6NvuJ4Ar9El709h0SQvnqk8r5ewMY9bMiVvndPy77jWNM91oqSvm+HAr+lP2q8gqORvjrt8r4PEAq+EkCWvoPbz76iNSG+QwR8viEwAr8mOHC+XmCAvtvS8L5MTn2+xx8svmg3Ar/Y85q+SjiLvVVqAr+WmaK+VUP9PNf7Ar9YS5i+6w3vPTtNAr8ZPny+c1Q7PvIiAb+I8DO+H8FqPmlBAL/Jjb+97feAPkJR/76KFmG7alCAPpsl/77POrY97LtxPpKj6L7edjs+QTaDPrTKtr6OMEE+4rRlPvZPAL9wuDY+yJWOCCECvggAnGeTqRuak1dZ4qUsAABzQUAAjXsE</SharedString>
+<SharedString md5="MzBCQzk4NDQ2QThCMTE0Ng==">Q1NHUEhTCAAAAAIAKLUv/WCgAWUUABQnAQAAADEAAABeuxhMAgAAkLp+vobsgb4kunq+kLp+PoTsgT4kuno+VS2gCqsoqgXq5NRCpzpptZ99qS5vnTcBX+6xvfKlk7ykmvW9K6K0PMB8e77U6+q9DAeKvaISSL5owgy+h0kcvs3OJ76GNWq94HIuviEqXr6qeNa87NmYvQp0Yr6IiQi9LI7DPHxURb7H5hq+Is7rPQE/rL3WUFC+ShA7PjUBFjx8D3O+EkUlPviOJz3RAna+DX2RPZS0Oz2aUHO+IhPovDjWCT1RzWm+ywbwvTdha7xtEFa+LBg8vibW1b2WVje+hUFOvr4YBr4L2LE8PQI+vv9pOL4rin09sdWpvfziCb7bGhs+CYm0vfg6Mr4H6G89pD20PPzDcL2E7IE+N38mPcjKGjz0C1U+UlYkPtRRI77oEJC92rv/PVk8ij0sqNU8JqpwPs9NFj4ln/a88YlUPqWX5j1dque9PEc6Pj9ZhT2ELze+T6sqPnYr7z3wlxS+1xOSPflC8j1m8CK+YrLGvD8FkD3BA1m+tkDpvIPZ0D0Spya+2Fnpvc0kLT0D/Ba+1FBAvj2IMT3a0w09mXl1vnL2JbyfKCG9phFrvjdha71K2eC9BgtfvkeMq70THdM9xJdJvh//5LyRbUI+QVRKvnR3pL3gZng+CFipvRpR3T28r0s+4/ADu1v09D3hvAIaT00+GFaOPXCoaz7fCWg+JWhePYuzAD7MdhI+loTNvdj/oD1tniM+n2HLvWvLi7wn+x5kWdm9lA5hPhhlaT20aEu+FJ0lPnEKbLw9eEW+oJHJPSh/6T1bHE096ozOvQzzUD73y928frrPvQkA3CLozeug3/fV86slONUKAGAuCAigcY8=</SharedString>
+<SharedString md5="Mzk0MTdCQTQyQzUxMTRDQw==">Q1NHUEhTCAAAAAIAKLUv/WAMA+UeALZ87D4wHFMHh/fw9EtBGDBYE9dPWspLTm6pF9Mhy/cY7yV/FQIN5r8rZWGyPjkGC2a9ctYqBC8nIf5XhC+1AR4iAd8A2ADbAFgO8LiYHq6Om1uQKeNKBxvsxiwmvzmsYYV7kJTmKCFu5Cw7NydRtPbRxBTZS1KIU/0N/oWss4/8uC4t8PTt5kojEth62CWNLCLI7yKTHI5NyMVtJ4SQnnegqAW7bPbTnDXXYijsvTkzspRl1K1SiLGYGzB5akKXW/OMyY6SaDrKgInHcKqKp0hYDeGPg2vvbMZl1Ww3abOVIecAdJI52edMvNOJ5uZiMZwV5YQRR0QRPr4NTctMUMxkkphoNuQo0c+GmRPIDIgMyBB3/8NC7EshKn2elmeRCBUAxZxOp09rFZDkIh/o8mVUj1vlUfwBXTBz5VGjJyBz5K1QhGXLRjMNzsv8s70ymdq02ZouqF7uULCFMpH8J07ia53U9OCjkQeIqnnBMDrSZ/W7ReDymIymH8wz2d4+w1faE/I2ri7b+1V8K93dD2iq7O6W2m/F5MVY3pxaECzZiFwf3d22vd2drGNRRXagD513w0JdSwfWPdBoPBYW07uXAjpvilduhDLZemcQsqh0Q3hgJuzAq0+XYUvic/5tIkNX7gTCOJSVBp2EEctrSGX6U5+RZuozdKtW1pM28OXPuPeRmsx7VjR4tqo274n8yQbsJL/EdJv1MFWbK0uU1xK+ydTHor7qkvJ+cWE/nxx2lhyr9z6BG3pmmsmijB6Qi9dLdlB8Arox/6KNm34Ap+rTplP+hyncFJrK1+WyuA8HmdgHHoKn09vGT666NBR2zeM50dp7XWoJU72vu1PgUHxPegmGiL/ihR17xasBICn4C4iO7kc5RMvSG5m5SErdi4SqFfbytqhDKc6D7EU1ECWbZuST8xk90jSUApdXQSv9RN2d/GU14klJix6kZCuDO9Txqrq0LKgQVxztmDXkrzbGUxlo5R+YODIUxh2vxgH8PNrw8gYpHvKWWoG3OyzLGeqo+KI1Ev7rC1FW8qHzZXNq8jcNZQwpBfOzBsZiOMArObHRwrc9lmgoWI28xIj1r0GmtHYNQUxF7vtyj4ZuRIIsB8FZPgsMUaeqfeWpHyC+KkjJ6/yG8pjYX/ayRch5oKmS0fo04wxvdr6l5ObqXrW5AsDehRSVw3ds/owjvcVVmu1k0fQdEUC/NoHxTx1t4ilW61QvSf9DNJUZs0Rxp+42a545+Kc07B9pwmXwdfOlenBfFhAIEHvd0P9OPBgybwThbUPIySLUxZ4agg0KcF/4m/DFeBL34XXNqwU=</SharedString>
+<SharedString md5="QTMxQzdGREUwMkY5NzI3MQ==">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</SharedString>
+<SharedString md5="N0FCOUZCNjZEMTZGODlEMA==">Q1NHUEhTCAAAAAIAKLUv/WB8Ax0fAHZ650EwGqsOGIBftPlaoWJxAAZU7SrpSc2vNhJu6zcNTNORJlFXA1z3kXdHWF05/aIoHcuJSsEWjNaARWSwwACKqIq/A9cA1wDUAFrNw/7WF/dVBNrlvFW6ANH9LCX417GMPrfFhQspysVFW7RGDPzmzIQ4C3KTyYVle1B2ljYNX8rw+wBN6VXXma8SQXYo3sNhfTgZkRVvdrNKkawJvhdpbT+mqD4R059zC+9/wIChMorag4ZR9CZZ/V81pLb5j0a6XAVjKqRBjJO56X438s6CVliPugbQVMJKt7DbwUeHM3qI2rdHomvnpLkYvqxrN+wPbh+gtW/tbRfrOgLj13VrvhwWfLqskV7XpenlcGCnyx6p66eBorp2SmWT8rLqup4JJwi1XrL9jU/ry6aiW4dE+PKCQ+ljBiTTGSyr15pF9i0ah2NWnm0wXJU+1iAwTTjXM4XQhZn2ujv3pyZllxsH7qExtftMoNHfbLzwRu0UjzSk6mVhz94ExAeP43rAnzztdCqdE0dfSfIbCXp6ms2VH12C6FXHDX0MhyX91oXtU0wWelXRu8eQjzgit60/oXA+rQsmZxJYJp25m7yHGzqc8Uu4zUotPmdKBI8iAftAVwO2jK6/fjYZ3Wo7M7iBoABdjIt9nSVFHuPpVUZAI308j/mSibrVECpMjDPSOqI9bxRESacCFvHBRDalTbv6u/ww9POTgIcu0eGWOHXnKdP7IptNDsGvqDNtOTyU2iTly3LSqeokP4ac3GY2+DoUj7UHK13/J1PLM6fangIWzXMrFXCqmAL7zODAp3kZpnuOCEkTg5C9FdhqFxIZf8mNbXN3oore7cHE8Tuz5v/5sh/BtJ5oyVKqWKb8XiVFskOuN7Pl4N0I7uGullVXYr4qtP1KeXyfIagyPaqdJRwltobY5LRDtCUo+I0ejM6FxLlYgtr17KnPYV1+Hfp1uT92CqV/QPk+zxbEB9qxnDIhkfTYOqmP2o1xsvPy1xaDXu0Pi2uJAvzqktSnofM6eQ+sEHuh/OLGCn3CUZjTUQn8iyplLoQFtzu5Q08mM5musWr2BnzQfuUVsvF4nj4uT5JDOgJNYzwJ825nTdI1qmA+oDLn1bLCNpt2iNsgJPDgIK9N5kyxcXjF/2GHg0+QIzk98YNlS0E3fobL7GbbPPwcpimbSibhIwBDnF6K2WzMJBOPtB2xoYk7U7401oPbrmykIkL8TElmoz3Nugut4z8IrPkwqCEUQSKgtjxMUuMBgBcUpNABQNYH/Pgka5fOfyVpiGPrwYXn9O+cCBMD9inp+2aoWqDRF+T+57GjRW8JLiLG4aIr</SharedString>
+<SharedString md5="OTZERUEwRDQ4RDJFQUMzMQ==">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</SharedString>
+<SharedString md5="RDQ1MzhEQzRCMjg3MkFGNg==">Q1NHUEhTCAAAAAIAKLUv/WAMA90eAHb86j4wXJsO40Pg05SMR2MhurDXvoAnLz4VaPp042LeTHXxpAnmvJrFmVnAGqJhyCOZLFhWpkqGfAzKlIU3eYXHWtwA1wDaAH6NO3Ihsa/sgy3jaBiiPZk7a9FivSqkoqFUt0xE0epXHI4xFvAxfyMr+JpkXtbSxTKmbCzjcDx0z5Mkppu6iddlso+bMtNeJ09upbuzAqLEUlWkxmQnCtro7hbrdpp97b0uaAlgfl53t6C1atB4iRyly4F7xH0zwPENGkFOt7eNj0w5aads2Gk8z2ImbdEeDFf+KIXp7lcZ31LBez7PZGQuZql6CawpqRoRWwz7fhXDUljdvl9GxS1hZV/vUwQYgQ8EYe5PiQz8Dw3f/inx6PGc7CBGmADo9Xw+dQJLXW3eNFty6YnsD2225fC107P2sNlPDYyM5FHP0ziEf0sKgWyks8bJ2IReReWXfhDmgp8Ac3xAwW0jvUHhRXRVnrCzsr19iW7E3fHdRjf91ULpBz1oZu2MvXapSxOCE7yA6JdvS8hObPDzHtK8Zcq5nhZyefVzVm5MNvbWjJpNuhALsI0wlj2e0aY7QSK1kMfpv5hG+pxb6R9H8XuBKR6YvR147clXtl69Z8bkuKQLwrtpAjSeI7Ujd2i5lo6r+c7inOrqwKmgrHSgDqezZaHuZIOxkVaMBfmsr820qs3O6/4E5C+vv44CRM2rUYaeBwiqraAArqZqE4I82Q72dZ4ue47WjLc7FMtVbkp4ELjs9da2eUMjV1+lGXiv9LKhW0Z0CDbg/4t59M6RxWylKfVyhzoawBqk5yHzfQtZOT30V/hZBqR50ouWjjJofBZROjEYUYWGkIP6Ws44PQiFs6Vs2F6LwdClfYid1Kf4ViqXu+Db0tCmrY+CjnEc3KbuwQznR0Uj9wYJMc2MMleVZ+Tmf5iG0zNeMP0E8odnJTV0AKKoW0ic9Goah0zBr8uh3HR5/wMFTR4zJPlFlTD8yphnOQXLat3EFSu/geuS7yCpXAMRU868s/5OjMV9hnQOc3F+FN9Uu80VZcw486mE3Rjt0krOzID2HcgkyIhdMXKa6JyX6gTyUiWo+UwklxzGW/MjwOqynCSyjNUkyacYk5HnYPHpAx+8ry20zFUwUJ6C23wzbpVcVYKTN1FAffRLImt5EXyoHIQ5CQi5bGW39mJBarGX5WSmwIT11s4qzWWDzU9nkt46hXMFG/YylQPO95KD5STqNvOW9fsKpHm+xdSRx7hiWXBA2PW4fBEI8Fq7Af8fcvUSJcukuYf8x1BgbNuQjYWQhSHSEECQfulvxhfjWdyH14WvFg==</SharedString>
+<SharedString md5="QTUxRjZEODU4QTQxOUU3Qg==">Q1NHUEhTCAAAAAIAKLUv/WCsA7UjANpGJBE/MJ5WB6s4YGuouwWAZljAWaesTH8UADZwMjaeoJFjUv4+QuDXdhBBK6CvjQ574HHnxxax7MSaEzsqgSur0yQkCAH/AP0A0OacA/Ir4WMJuLJXhNYXCQU5kLGhU+VG77OnysOwUN7EiQJfXKH1JmMQk3FU/k0VfO2OzdzMTh0s6MLLBqE8EPXPfNQA5mJfWy/EO5yVcDicGoHJu1ascwFATCd6cca7FCDMTBRVZLU3I/4GA3QmQkog+4Dy+birzCxASUBuQgDPR1HGOTn158sdYU7GzpF/SV3NT6Y08xCeqjOn8owAzc5c4AftSGbhWVnW5zCk3mYAbArnIianI5tXWI7EDF7erLwapL9skaQc9IpE3JHdXeKVOXRXukxh0Z3RcCoR1+VIi4SQy2EJmZeU+MwvhyW2l5LqbGaZxeNRaQV1PCJPcEVhQXE8HpMBg+Bs/0lTkUN89Xwv2uRglnmynRdA18Khhqd5wsGJzn743PLMAwWZuYS+B14XdXL6yPUXG7b4ljIxV2ME508aaD6linZEv7Cc9sTncwwaHXEFFmlVC9bFxDBzwvEUGpAOQPeOuPpXqdLP63KvmTzOVoNPBgdS42C0ovxuTpb8nRL2PisufwMw5VrKNJ4YdXMicsocS8/rfBYOXc2JoY8p9fwPcIFvifKO1tT6HDRd785+HrZUxcdcMOOKUtLcQmCh1zmZszIGCJkMjAheJzg2C9FglH5TbP3Ml9TFF5Z0dg3XvwyujsjWprbyFZiHyhD6Gqtsrd2SMSOjf/62NJUGb+MJ6pl00X4MRM97Pbm+bciNjZSy+DM9fcgYCv7xDl9KPPR9voS7CM+3HrREej4cvFZrZPLgHtW9/CrJ3iVrO0mV/Do4WhZUw9tHLNlfkgSVzaq239iU4lG0CcszINwmADXyYlijMGHbbTvFVl/25aWz9ADupz//ShYTNZQRgi8XleQF7B3tpxT3lXiA8h9ILHdRXovv2na/KsjYj7MEf0KFPb8jQ5hvfGr76RdB7UZq/N47Tm/XgExaljR98eKXp8DIR0VmCN7LvOZ7Wbu1EkXG/TSiPhIp3E82YbKbdFxv5abVYNe23ZSb3+oVrqkS5BeLcXulRSt1WMjsA5+Mk2AfUETzilcn3cJqai+vE14RbLE2Q/C1k9aovOGRPx/VAWkrHXb9oJ/3fWCB7WYH5Xt5PHgkeXE2k8Z+GDnAtxld2MgkcJ8HQJYPK4x78R6dLcRl+x6aEDfRl8Af+9H7ZJreRoLz7CG6sSZ7wLQHXOmdtCOjexBx+3A1cQ+Y0EW2UEe5jyXqF3P9yHfZFDtppfpCvzeyCjfpXvpI/pkWK2+BcNvNuau303qSgikg7iaZGj9oh62Vinf7qWPGn4HDrdXIqvUWVZ0YdbAn4vADgHXRGaD/amvHfk6RPJcoW5+Fh207+wy+E6fyjawF7qIqOn/2A++1bAJtAc49ARAI8PYBAPPClqfJvFOEsZFChD1MmvVqH64BCY4werneFQzgQAYK9GoB</SharedString>
+<SharedString md5="QkY5QzdFRUUwNkZDQTJCNg==">Q1NHUEhTCAAAAAIAKLUv/WCsAQ0VALQoAQAAADIAAABgvxhYAgAA1sdcvme7vL3ik2q+1sdcPmO7vD3ik2o+pSilCqWcCqCue7ZQL6toUW1LW7T3W/NkmvVbPqENBD22nne8pv4MPcLScD2CsRo+RdJFvVMQSj0ebxo+MOVFveV3qryUWbc9yF2rvW8pJz2w2gY+0tsmvf3k7j2WqUQ+zvULPbiLBT6eTF07Y7u8PcYTjToA/So+ElgGPef+Db5KIEc+pXXwPG++qr3MPg4+87YVvV3wtL3V3bA9oWasvZ0/07wVPu48Z7u8vdqgDT1qA4I8l+GsvW3Myj3V6Jo928KRvfr73D0JPeA9hCnSvDqxJT5M5RU+SnYDPcvsQD690Ko9wDTPPJxGYz7Bhpk7cdGYPOKTaj7clp29OYiUPGupUz7mflm+KC93PfuLDj3Wx1y+04mCPVXKgrxnLFW+rhBrPZNalr31VpS8Hsm1vvYJhT1du7w8IYFavkLnBT6K7fU8Mok1vh56BD4XXA+81AYRvtyhhz3wqA29Tj4mvkI0lT0jD5G9h17EvfexizsuQK29rU6+veyPvzzysby9wgXGvNr5gLzZdgY9e6QqvceBrr2BjKA9ghCIvSOhSL1iLxM+kscEO94TR735BCs+QueFPYWlIr3Zri0+Y0oVvi/H1zzrfCM+sRFCvr2XKT28a8k96EMoviwdmbxbnCY9f/BBvqX/SDzrfKO8bqMcvmGixryXba+9u3Uzvg29Cz0UJRi+XiPbvVW8qzwxLFm+QM4zvDJyOL0ufSy+mAS8vWI9Qb2MlhK+j8SGvW7jqb2f+Yu9cP4TvRyMvL1XuOa7Sn+0vbjgnr1L6hc9AmoAvr+mIL1TEMo9Eoj/vdhsb706saW8BwDZS0QLX8UAUwUHAOLCgRAa9wg=</SharedString>
+<SharedString md5="RjVDM0M3QjgyQjNEMzAwQw==">Q1NHUEhTCAAAAAIAKLUv/WCsAfUUAJQoAQAAADIAAABgvxhYAgAA2MdcvmS7vL3ik2q+2sdcPmS7vD3ik2o+UhRFFanOKoBVVT3VUq1SWmy12qp3W7dPayxVPrAQaz2TWpa91YmCPVXKgryC8EE+tP9IPOt8o7xxoxw+V6LGvJdtr73rQyg+Ix2ZvFucJj3qflk+Ki93PfuLDj2JEGC7ZLu8PcYTjTr/VpQ8Jcm1POKTar5jI9s9XLyrPDEsWb6+dTM+JaoLPRQlGL6cBLw9cipBvYyWEr6TxIY9a+OpvZ/5i70XiP896FlvvTqxpbxPf7Q9teCevUvqFz0FagA+uqYgvVMQyj20EUI+wJcpPbxryT1mShU+NsfXPOt8Iz7glp09amKUPGupUz636Jq7eNGYPOKTaj7e5qq9xzTPPJxGYz5N5RW+OIkDPcvsQD6YqUS+0fULPbiLBT7Yx1y+v+sMPcLScD2tAFy+pA0EPbaed7wB/Sq+KkUGPef+Db5U8gW+ke31PDKJNb4XIIW9ZLu8PCGBWr5SzjM8LXI4vS59LL7tE427K0Ctva1Ovr12/hM9GYy8vVe45ruBpCo9xIGuvYGMoD2FEIg9HaFIvWIvEz58iwe72RNHvfkEKz5j/YW9gKUivdmuLT4rU+C9einSvDqxJT7B5Qa+zdsmvf3k7j2DsRq+QNJFvVMQSj0fb+V3qrxMIEe+q3XwPG++qr3dSQ6+BKQVvV3wtL0eegS+BlwPvNQGEb78t4e9AZYNvU4+Jr5jSpW9qwWRvYdexL3387C9nmasvZ0/07xr6L+877G8vcIFxrzk+YA82XYGPehbgryU4ay9bczKPfb+mr3YwpG9+vvcPbVvt73FXau9byknPZWW7rxku7y92qANPQcAHAiR68sMMFVwACAuHAihcY8=</SharedString>
+<SharedString md5="MjBENDY1Rjc4OERCNDUzNw==">Q1NHUEhTCAAAAAIAKLUv/WCgA20jAEpGABE9MODWGJdckllHBmvN6n5H4Dgp7mXsy9WgZC1vGMXnMV8CNyIpMtEKjZPEFpndFRwMi+hz3O/gp6qe4M5oJAMB/gD9AFEkUB2WiuNM7FSIJYmUaTPZNZ8HPMVuSkO6rwQNX/PliVUTtwud5cUBH4SAxFVC6G08Rj3elRI4GwlTaT4Bc04mK2YGN2loQ6YuBwzy4dAsjH5cgnI6rzW/cib9/YK6oFeXd3BzJTcZ8XjdU8qc9YPghU6OMRZzSFMGnvEg28Q4a6+sESHJeB2K6dzUgq3dDc1/UcF8VRnUiYJSv5MemLUKzHUY+w6EgdajgtH205jnRFz4La2HcpevhRwdmAWnsu1270OTri1bE5QzLRY6TjLMQDn04sQOBFBimV0CCmwMeswpJcvUqpWPOaf+yiPsqdV4uXRSLVgumSBIPMD7Wi6XQAEzmliUU7K1kaVV2LiCE2p7DVB5oi3/+zYDtBqox5dueDPDwVG7Oxb9KdWduQ5SrfnAVy+0otGRenQbSubwP0wwd/4AtzcO1EP7zK9cE2Rm19YPBUgwb4Vk5Sfd21/hd4L8HFD500eh+AiGEl05JPdBMYJ6GaWh4ZiReWObXfwWeKMHRyR5ny4RLSywy+ZjEX6hMFJ/dZGPPeUtzOuwIZzvBpU0nhWg08FC9KMxaO3FipqvKSziGNLQtB09Gw428yJD2cy8DBbOoYbCsoGnsmd+dZmzqICTkYZkfNQB5JYnt6V8pDf40UocsYNAI1Pp7H45BbCzIqLIzw11HMy87HGtdXDoTCdkz0zjbQ9ci3+QHJ6euafYSxRkxGhb2M6WrXVQCL9nyka6SqypGwHTMxUJO8WewB5RgME3YUT1kRmA7+RT1Vm+ZLUWgTT/rDJ7sUufThKq883qLC+7aMVgvua8svFLhqqZiMM4TbzUm21KrjyxE2PhHxHRtWOOHtwRV+0XSJHWlFZyZhpNwt66NdhdRTF/psl66h6F/tJocwBRVZ7J9JWHqG2ORZX2TiyrphP5w73MlryTiasFvxGqwGGL/viGqreEwMZHdow+aSREnspssRTYz0Mb3eRn1W+OC1dfwINIGahEBi5Yhz3vhAEmQ69OXKMQNxzPImJxFZaIt+4g6iIBJMRuivjeiIxAJzmMxoc12t46xUHrNUbFSCtccNFOxkprtngvMnCFbJf+uuND52khcpMQKr11rtlG7hTnPOrhG4kJ9tuMOV7Nu/AD+r4NdybszRVKT9Q2p3EcqZnl+jC9tCquXxwRMyuZKnsgMsmOQNdcr7WzL0rK6hOOcnEYE+0XXZ/6hNqc2M6f+KcR9FqrRaKzWVMvYI7ZaV+lVnD35qWRcw2X2NcJotMvsib1Fu2VppIAf9FUZHe507hujORbvdwW42joh5Vi2/CEnnnbRHyr3llrQeP162T3qQ2ANOCMMcea5PDNSgUdp6HPl9ToeCAfARAI0Pogze6lQIPFwcdo6DwBoSdksMfrAJ8W6gdG9AJ7KRjAgRggzKsF</SharedString>
+<SharedString md5="NUI4NzIxRjRBRUYwNTY4Rg==">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</SharedString>
+<SharedString md5="MDgxQzgzOUQ2QzlGRTFCNg==">Q1NHUEhTCAAAAAIAKLUv/WDIAf0VADQrAQAAADQAAABkxxxwAgAA4Nd4vgBBhL4CboS+4Nd4PgBBhD4CboQ+Z6kCFFUUVVUWqopSOktbfL5Y5XSeLrbtPwAAAEmFaj78Wfi93LkFPqhBnT0AQYS+cfgbPeDXeD58Vuy9/EkfPZZzZz4mpem8aELLPBv/Oz5fdXu9aQu6vX3GTz605w++ntCGvY682j3nkz2+fa4dvhnwMDww7Fu+JpAlvuGvI73SB2++xLu5vXx5aL3O63i+SXsZPIS4Zr2Hs3y+2JXRPZ//zLxs2nm+zag3Pjcqhj3zBFa+lxpnPgWPKD7S3h6+w/JRPrNgVT6OuBS93oICPrSOTj7bUHc9hpsiPPNqJD6bIpU89VznveZniD07Tu69A6U4voISX77JxX49Am6EvtAu1b208ym+Qo7TvbX6o703Jl6+1pWnOyIyAb5Dbia+pWLUuD3Ptb3YJlG+YB7KPaeqoL36Mj6+Pfw2Pj/q+b0cWfW9ehxAPqGZG74Fcxi9sBhWPh6olTwQxA6+roZxPtBBir2trY08dlOEPkYRBj5bJJu9nj5aPixOZz0AatQ9KZBkPns/Nj74MWg99lz1PXjXCj7gTSE+ji3wPewrJj6DYhw+/EkfugyN+D1VEdM9P44GvlKJ3jxU9jK9SrJNvvhsnr37T/Q9kpqBvhb9wb0Fi0w+CgBgPODXeL5t2GM9KusGvm92TL7cQse8TXvtvfWYHb5aMsu9WDHavRCiJ76VD829z6jhOi2uA77roxm+lRrEPaGZG76rwtW9pyvRPWD4T77DiWY9Bm5fPjjZ9L3TEfM9Am6EPuVktjsN1FQ+cGZhPgdUnj0AQYQ+K1nvPS184D0/dn4+hNIXvNa7kj3JqEg+GBEZviJdqLwJlBA9SellvoyOYb7y9U89/tsDPlgDZ76SCXU9/hIqPAQAABAXDoTQuEc=</SharedString>
+<SharedString md5="ODA1REIxQjFBMTg0NUJDMw==">Q1NHUEhTCAAAAAIAKLUv/WDIA8UgABY87UEwWKsOaVrcni8MhKa5acCdmT8axAaW1HbwFr0aiijVy1AP24nIge5lQx1J7yBuB1WnSG0nDA4U8MPKMzrjFn2Ndt8A1wDbAFwhtmGKy374oQDPiXQTl7Eu8SM/CdtxH/9eC8vyohxMxcSsq9La4hIDbwM78D4/TB+hm01nimfVNcRVgJMcjQaZiUnmIs5lddoIyK/Ldbwoho8OteWk+zGm2JSLQB80Sd6Wklq+B0AXKLuil5HW1bxwj7vj9hyPxi8ISNP1un19TkUhEgJ6gjTHklG7FJYsNE0zCcVytOmw9Ri1Dp4IU27EstJBW2U1Yl7otzCDY41bKBcaWQxulSjDPXDm2mjOvWFUPA4S+3ZGTd4bVn8cJBhNN69PNH2T7XJQxIumaZzj8M7S4CtOQhTjzOd7uihPcV4J8hSiCSJP9wb1VAvXbmQr9FehG7H5sH9SArLX/vH1Sx7gsUcZOiSQT5+rgfSbxK0/I8w+UJumzxkC3dzA5j/JEn5qk7eUNfNH/VCc1hDaPArOytf1we0Jbn+cCA/Md81O3Mll2nxKWk/3AGnTPZmyoV3CnqqFbhlC0b5IH/YxkZv60VHrreMpY1K0nzIKbR6k5lctu1AQQT0boWI3q+D7rNhVCEm1P2BZRaZm750M1s72evSzC7U0bLUnwtC6NR931PH50VzNn3L1XmeGjf9wqUi8wBl+zpxizRgItQeU3z6LzaGzMuirbOzGdL4/XYRiaZj1PTgjgKxNvQwWtio32eP22LDXCl2qTMX7o2F6pdtgrXLLs5jStIi0wdvkzK6c3HuGA98eUcC/Xn2L5UeAX2BguOgX34YbVnyXzeGO8gB/GggRPVGP+mc6wv2s3XmyywjvVGJOdnkENzu4joCeXg5A5aVjupvVmJ81sTU/W9fWUTuTXYsG6dWMFH1dlLJvoVDVkSCgfQmy1k99tlLwaGpgvJQJ2A6PB//rBeyIAdzn6gs/4kEhvvG14iS0XL8IurhxoPHiXacTXW9pBqebhrjcGHc6WZjlRVZ+2wbfmVtJScPL9JxH0DB42j9DRJzLhcP+G9O078QT+JCgkL0XxNz7gvK2DgSnfYkn9c8rJfU5SZBXrZT9zahCLSkGyt+2kKmjGqgcAPMHHxsCZlM9qXyLZYcnBTnvSAyV0kgjmpfd1RyMpeULoHTUM7LCnPqkiBNZeSGugrfEpYGJvKeyrCNuAHMD3G5Tdg34JzHVbuLY3EmWgP9FDWQbWOPDM3iI8GaMlPX0i4dfAzsoMCsoSKsDYBTf4C+WaozZZDCYTRMvbW74vi0Yjjfs2uflcyA39eAZc9EhnawMDJFEB+TF3jVtuAx8w2g0NOFzuEYMLr6K32SMBdWtQD5m9xNpixEVQK6P+tmzSXi5oQU=</SharedString>
+</SharedStrings>
+</roblox>
