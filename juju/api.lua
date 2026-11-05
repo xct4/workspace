@@ -240,6 +240,7 @@ local env = getgenv and getgenv() or _G
     function Circle.new()
         local CircleObject = setmetatable({
             __OBJECT_EXISTS = true,
+            __APPLIED = {},
             __PROPERTIES = {
                 Color = color3New(0, 0, 0),
                 Position = vector2New(0, 0),
@@ -294,6 +295,13 @@ local env = getgenv and getgenv() or _G
         local object = self.__OBJECT
   
         Properties[property] = value
+
+        -- 同じ値の再代入は Instance に書かない (見た目は不変。親の再配置や tween 終端での無駄な書き込みを削減)
+        local applied = self.__APPLIED
+        if applied[property] == value then
+            return
+        end
+        applied[property] = value
   
         if property == "Color" then
             object.BackgroundColor3 = value
@@ -348,6 +356,7 @@ local env = getgenv and getgenv() or _G
     function Text.new()
         local TextObject = setmetatable({
             __OBJECT_EXISTS = true,
+            __APPLIED = {},
             __PROPERTIES = {
                 Color = color3New(1, 1, 1),
                 OutlineColor = color3New(0, 0, 0),
@@ -411,6 +420,13 @@ local env = getgenv and getgenv() or _G
         local Properties = self.__PROPERTIES
   
         Properties[property] = value
+
+        -- 同じ値の再代入は Instance に書かない (見た目は不変。親の再配置や tween 終端での無駄な書き込みを削減)
+        local applied = self.__APPLIED
+        if applied[property] == value then
+            return
+        end
+        applied[property] = value
   
         if property == "Color" then
             self.__OBJECT.TextColor3 = value
@@ -490,6 +506,7 @@ local env = getgenv and getgenv() or _G
     function Square.new()
         local SquareObject = setmetatable({
             __OBJECT_EXISTS = true,
+            __APPLIED = {},
             __PROPERTIES = {
                 Color = color3New(0, 0, 0),
                 Position = vector2New(0, 0),
@@ -539,6 +556,13 @@ local env = getgenv and getgenv() or _G
         local Properties = self.__PROPERTIES
   
         Properties[property] = value
+
+        -- 同じ値の再代入は Instance に書かない (見た目は不変。親の再配置や tween 終端での無駄な書き込みを削減)
+        local applied = self.__APPLIED
+        if applied[property] == value then
+            return
+        end
+        applied[property] = value
   
         if property == "Color" then
             self.__OBJECT.BackgroundColor3 = value
@@ -604,6 +628,7 @@ local env = getgenv and getgenv() or _G
     function Image.new()
         local ImageObject = setmetatable({
             __OBJECT_EXISTS = true,
+            __APPLIED = {},
             __PROPERTIES = {
                 Color = color3New(0, 0, 0),
                 Position = vector2New(0, 0),
@@ -653,6 +678,15 @@ local env = getgenv and getgenv() or _G
         local Properties = self.__PROPERTIES
   
         Properties[property] = value
+
+        -- 同じ値の再代入は Instance に書かない (Data / Uri は非同期読み込みがあるので対象外)
+        if property ~= "Data" and property ~= "Uri" then
+            local applied = self.__APPLIED
+            if applied[property] == value then
+                return
+            end
+            applied[property] = value
+        end
   
         if property == "Data" then
             self:__SET_IMAGE(value)
