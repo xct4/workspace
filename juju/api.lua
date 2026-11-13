@@ -128,7 +128,7 @@ local env = getgenv and getgenv() or _G
     Drawing2.sgui = __ROOT
     
     function Drawing2._UNLOADCache()
-        for idx, object in Drawing2.__OBJECT_CACHE do
+        for object in Drawing2.__OBJECT_CACHE do
             if rawget(object, "__OBJECT_EXISTS") then
                 object:Remove()
             end
@@ -175,7 +175,7 @@ local env = getgenv and getgenv() or _G
             })
         }, Line)
   
-        table.insert(Drawing2.__OBJECT_CACHE, LineObject)
+        Drawing2.__OBJECT_CACHE[LineObject] = true
   
         return LineObject
     end
@@ -224,7 +224,7 @@ local env = getgenv and getgenv() or _G
     function Line:Remove()
         self.__OBJECT_EXISTS = false
         self.__OBJECT.Destroy(self.__OBJECT)
-        table.remove(Drawing2.__OBJECT_CACHE, table.find(Drawing2.__OBJECT_CACHE, self))
+        Drawing2.__OBJECT_CACHE[self] = nil
     end
   
     function Line:Destroy()
@@ -275,7 +275,7 @@ local env = getgenv and getgenv() or _G
             }),
         }, Circle)
   
-        table.insert(Drawing2.__OBJECT_CACHE, CircleObject)
+        Drawing2.__OBJECT_CACHE[CircleObject] = true
   
         return CircleObject
     end
@@ -340,7 +340,7 @@ local env = getgenv and getgenv() or _G
     function Circle:Remove()
         self.__OBJECT_EXISTS = false
         self.__OBJECT.Destroy(self.__OBJECT)
-        table.remove(Drawing2.__OBJECT_CACHE, table.find(Drawing2.__OBJECT_CACHE, self))
+        Drawing2.__OBJECT_CACHE[self] = nil
     end
   
     function Circle:Destroy()
@@ -357,6 +357,7 @@ local env = getgenv and getgenv() or _G
         local TextObject = setmetatable({
             __OBJECT_EXISTS = true,
             __APPLIED = {},
+            __BOUNDS_DIRTY = false,
             __PROPERTIES = {
                 Color = color3New(1, 1, 1),
                 OutlineColor = color3New(0, 0, 0),
@@ -395,12 +396,17 @@ local env = getgenv and getgenv() or _G
             })
         }, Text)
   
-        table.insert(Drawing2.__OBJECT_CACHE, TextObject)
+        Drawing2.__OBJECT_CACHE[TextObject] = true
   
         return TextObject
     end
   
     function Text:__index(property)
+        -- TextBounds は読まれた時だけ計算する (Text / Size / Font を変えるたびに GetTextBoundsAsync を呼ばない)
+        if property == "TextBounds" and self.__BOUNDS_DIRTY then
+            self:_UPDATE_TEXT_BOUNDS()
+        end
+
         local value = self.__PROPERTIES[property]
   
         return value or Text[property]
@@ -434,10 +440,10 @@ local env = getgenv and getgenv() or _G
             self.__OBJECT.Position = fromOffset(value.X, value.Y)
         elseif property == "Size" then
             self.__OBJECT.TextSize = value
-            self:_UPDATE_TEXT_BOUNDS()
+            self.__BOUNDS_DIRTY = true
         elseif property == "Text" then
             self.__OBJECT.Text = value
-            self:_UPDATE_TEXT_BOUNDS()
+            self.__BOUNDS_DIRTY = true
         elseif property == "Font" then
             if type(value) == "string" then
                 value = Drawing2.Font.Enums[Drawing2.Font.Fonts[value]]
@@ -448,7 +454,7 @@ local env = getgenv and getgenv() or _G
             Properties.Font = value
   
             self.__OBJECT.FontFace = value
-            self:_UPDATE_TEXT_BOUNDS()
+            self.__BOUNDS_DIRTY = true
         elseif property == "Outline" then
             self.__OBJECT.TextStrokeTransparency = value and 0 or 1
         elseif property == "OutlineColor" then
@@ -468,6 +474,9 @@ local env = getgenv and getgenv() or _G
     end
   
     function Text:__iter()
+        if self.__BOUNDS_DIRTY then
+            self:_UPDATE_TEXT_BOUNDS()
+        end
         return next, self.__PROPERTIES
     end
   
@@ -475,22 +484,60 @@ local env = getgenv and getgenv() or _G
         return "Drawing2"
     end
   
+    -- 同じ (font, size, text) の計測結果を使い回す。メニューのラベルは同じ文字列が何度も設定されるため
+    local TextBoundsCache = {}
+    local TextBoundsCacheCount = 0
+
     function Text:_UPDATE_TEXT_BOUNDS()
+        self.__BOUNDS_DIRTY = false
+
         local Properties = self.__PROPERTIES
+        local font, size, text = Properties.Font, Properties.Size, Properties.Text
+        local bySize
+
+        if font ~= nil and type(size) == "number" and type(text) == "string" then
+            local byFont = TextBoundsCache[font]
+            if not byFont then
+                byFont = {}
+                TextBoundsCache[font] = byFont
+            end
+            bySize = byFont[size]
+            if not bySize then
+                bySize = {}
+                byFont[size] = bySize
+            end
+            local cached = bySize[text]
+            if cached ~= nil then
+                Properties.TextBounds = cached
+                return
+            end
+        end
+
         local TextBoundParams = Drawing2.__TEXT_BOUND_PARAMS
   
-        TextBoundParams.Text = Properties.Text
-        TextBoundParams.Size = Properties.Size
-        TextBoundParams.Font = Properties.Font
+        TextBoundParams.Text = text
+        TextBoundParams.Size = size
+        TextBoundParams.Font = font
         TextBoundParams.Width = huge
   
-        Properties.TextBounds = GetTextBoundsAsync(TextService, Drawing2.__TEXT_BOUND_PARAMS)
+        local bounds = GetTextBoundsAsync(TextService, Drawing2.__TEXT_BOUND_PARAMS)
+        Properties.TextBounds = bounds
+
+        if bySize then
+            bySize[text] = bounds
+            TextBoundsCacheCount += 1
+            if TextBoundsCacheCount > 8000 then
+                -- 動的な文字列 (数値表示など) で膨らみ続けないよう、上限で全部捨てる
+                TextBoundsCache = {}
+                TextBoundsCacheCount = 0
+            end
+        end
     end
   
     function Text:Remove()
         self.__OBJECT_EXISTS = false
         self.__OBJECT.Destroy(self.__OBJECT)
-        table.remove(Drawing2.__OBJECT_CACHE, table.find(Drawing2.__OBJECT_CACHE, self))
+        Drawing2.__OBJECT_CACHE[self] = nil
     end
   
     function Text:Destroy()
@@ -537,7 +584,7 @@ local env = getgenv and getgenv() or _G
             })
         }, Square)
   
-        table.insert(Drawing2.__OBJECT_CACHE, SquareObject)
+        Drawing2.__OBJECT_CACHE[SquareObject] = true
   
         return SquareObject
     end
@@ -612,7 +659,7 @@ local env = getgenv and getgenv() or _G
     function Square:Remove()
         self.__OBJECT_EXISTS = false
         self.__OBJECT.Destroy(self.__OBJECT)
-        table.remove(Drawing2.__OBJECT_CACHE, table.find(Drawing2.__OBJECT_CACHE, self))
+        Drawing2.__OBJECT_CACHE[self] = nil
     end
   
     function Square:Destroy()
@@ -659,7 +706,7 @@ local env = getgenv and getgenv() or _G
             })
         }, Image)
   
-        table.insert(Drawing2.__OBJECT_CACHE, ImageObject)
+        Drawing2.__OBJECT_CACHE[ImageObject] = true
   
         return ImageObject
     end
@@ -747,7 +794,7 @@ local env = getgenv and getgenv() or _G
     function Image:Remove()
         self.__OBJECT_EXISTS = false
         self.__OBJECT.Destroy(self.__OBJECT)
-        table.remove(Drawing2.__OBJECT_CACHE, table.find(Drawing2.__OBJECT_CACHE, self))
+        Drawing2.__OBJECT_CACHE[self] = nil
     end
   
     function Image:Destroy()
@@ -811,7 +858,7 @@ local env = getgenv and getgenv() or _G
             })
         }, Triangle)
   
-        table.insert(Drawing2.__OBJECT_CACHE, TriangleObject)
+        Drawing2.__OBJECT_CACHE[TriangleObject] = true
   
         return TriangleObject
     end
@@ -884,7 +931,7 @@ local env = getgenv and getgenv() or _G
     function Triangle:Remove()
         self.__OBJECT_EXISTS = false
         self.__OBJECT.Destroy(self.__OBJECT)
-        table.remove(Drawing2.__OBJECT_CACHE, table.find(Drawing2.__OBJECT_CACHE, self))
+        Drawing2.__OBJECT_CACHE[self] = nil
     end
   
     function Triangle:Destroy()
@@ -958,7 +1005,7 @@ local env = getgenv and getgenv() or _G
             })
         }, Quad)
   
-        table.insert(Drawing2.__OBJECT_CACHE, QuadObject)
+        Drawing2.__OBJECT_CACHE[QuadObject] = true
   
         return QuadObject
     end
@@ -1039,7 +1086,7 @@ local env = getgenv and getgenv() or _G
     function Quad:Remove()
         self.__OBJECT_EXISTS = false
         self.__OBJECT.Destroy(self.__OBJECT)
-        table.remove(Drawing2.__OBJECT_CACHE, table.find(Drawing2.__OBJECT_CACHE, self))
+        Drawing2.__OBJECT_CACHE[self] = nil
     end
   
     function Quad:Destroy()
